@@ -54,7 +54,6 @@
   <p>Svelte Edition</p>
 
   <div class="screen" id="gameScreen">
-
     <div>
       <svg class="play-icons" id="playerIcon">
         <desc>Robot hand by Eucalyp from the Noun Project</desc>
@@ -86,11 +85,9 @@
         </g>
       </svg>
     </div>
-
   </div>
 
   <div class="result-container">
-
     <div class="player-score">
       <span class="circle" />
       <span class="circle" />
@@ -105,11 +102,9 @@
         {/if}
       </div>
     </div>
-
   </div>
 
   <div id="buttonsContainer">
-
     <button id="rockButton" on:click={() => playRound("rock")}>
       <!-- <img id="rockIcon" src="/icons/r_rock.svg" alt="Robot hand by Eucalyp from the Noun Project"> -->
       <svg class="action-icons" id="rockIcon">
@@ -155,9 +150,7 @@
         </g>
       </svg>
     </button>
-
   </div>
-  
 </main>
 
 <style>

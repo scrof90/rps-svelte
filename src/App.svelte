@@ -1,52 +1,52 @@
 <script>
   let wins = 0;
   let losses = 0;
-  let result = '';
-	let newGame = true;
+  let result = "";
+  let newGame = true;
 
   function getComputerPlay() {
     let play = Math.random();
 
-    play = play < 0.33 ? 'rock' : play > 0.66 ? 'paper' : 'scissors';
+    play = play < 0.33 ? "rock" : play > 0.66 ? "paper" : "scissors";
 
     return play;
   }
 
   function playRound(playerPlay) {
-		if (newGame) {
-			wins = 0;
-			losses = 0;
-			newGame = false;
-		}
+    if (newGame) {
+      wins = 0;
+      losses = 0;
+      newGame = false;
+    }
 
     let computerPlay = getComputerPlay();
 
     if (playerPlay === computerPlay) {
-      result = 'Draw';
+      result = "Draw";
     } else if (
-      (playerPlay === 'rock' && computerPlay === 'paper') ||
-      (playerPlay === 'paper' && computerPlay === 'rock') ||
-      (playerPlay === 'scissors' && computerPlay === 'paper')
+      (playerPlay === "rock" && computerPlay === "paper") ||
+      (playerPlay === "paper" && computerPlay === "rock") ||
+      (playerPlay === "scissors" && computerPlay === "paper")
     ) {
       wins++;
-			result = '<<<';
+      result = "<<<";
     } else {
       losses++;
-			result = '>>>';
+      result = ">>>";
     }
 
-		checkWin();
+    checkWin();
   }
 
-	function checkWin() {
-		if (wins === 3) {
-			result = 'You Win!';
-			newGame = true;
-		} else if (losses === 3) {
-			result = 'You Lose!';
-			newGame = true;
-		}
-	}
+  function checkWin() {
+    if (wins === 3) {
+      result = "You Win!";
+      newGame = true;
+    } else if (losses === 3) {
+      result = "You Lose!";
+      newGame = true;
+    }
+  }
 </script>
 
 <main>
@@ -87,20 +87,20 @@
     </div>
   </div>
 
-	<div class="result-container">
-		<div class="player-score">
-			<span class="circle"></span>
-			<span class="circle"></span>
-			<span class="circle"></span>
-		</div>
+  <div class="result-container">
+    <div class="player-score">
+      <span class="circle" />
+      <span class="circle" />
+      <span class="circle" />
+    </div>
 
-		<div class="screen screen-text" id="resultScreen">
-			{#if result}
-				<p id="result">{result}</p>
-				<p id="score">{wins} - {losses}</p>
-			{/if}
-		</div>
-	</div>
+    <div class="screen screen-text" id="resultScreen">
+      {#if result}
+        <p id="result">{result}</p>
+        <p id="score">{wins} - {losses}</p>
+      {/if}
+    </div>
+  </div>
 
   <div id="buttonsContainer">
     <button id="rockButton" on:click={() => playRound("rock")}>
@@ -183,18 +183,18 @@
     border-color: hsl(120, 100%, 40%);
   }
 
-  .play-icons {
+  svg.play-icons {
     display: inline-block;
     width: 70px;
     height: 70px;
     transform: scale(3);
   }
 
-  .play-icons#playerIcon {
+  svg.play-icons#playerIcon {
     fill: hsl(210, 100%, 50%);
   }
 
-  .play-icons#computerIcon {
+  svg.play-icons#computerIcon {
     fill: hsl(60, 100%, 42%);
     transform: scale(-3, 3);
   }
@@ -204,13 +204,13 @@
     font-family: "Perfect DOS VGA 437", "Fixedsys";
     font-size: 1em;
     letter-spacing: -1px;
-		text-transform: uppercase;
+    text-transform: uppercase;
   }
 
   #resultScreen {
     margin: 2em 46%;
     height: 7em;
-		line-height: 200%;
+    line-height: 200%;
     border: 1px;
     border-style: solid;
     padding: 0.5em;
@@ -229,9 +229,9 @@
     transform: scale(1.5);
   }
 
-	svg.action-icons:hover {
-		fill:hsl(120, 100%, 80%);
-	}
+  svg.action-icons:hover {
+    fill: hsl(120, 100%, 80%);
+  }
 
   button {
     height: 8em;
@@ -239,10 +239,10 @@
     margin: 0;
     background-color: black;
     border-color: hsl(120, 100%, 40%);
-		border-radius: 50%;
+    border-radius: 50%;
   }
 
-	button:hover {
-		border-color:hsl(120, 100%, 80%);
-	}
+  button:hover {
+    border-color: hsl(120, 100%, 80%);
+  }
 </style>

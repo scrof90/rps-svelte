@@ -105,7 +105,7 @@
   </div>
 
   <div id="buttonsContainer">
-    <button id="rockButton" on:click={() => playRound("rock")}>
+    <button class="action-buttons" id="rockButton" on:click={() => playRound("rock")}>
       <!-- <img id="rockIcon" src="/icons/r_rock.svg" alt="Robot hand by Eucalyp from the Noun Project"> -->
       <svg class="action-icons" id="rockIcon">
         <desc>Robot hand by Eucalyp from the Noun Project</desc>
@@ -120,7 +120,7 @@
       </svg>
     </button>
 
-    <button id="paperButton" on:click={() => playRound("paper")}>
+    <button class="action-buttons" id="paperButton" on:click={() => playRound("paper")}>
       <!-- <img id="paperIcon" src="/icons/r_paper.svg" alt="Robot hand by Eucalyp from the Noun Project"> -->
       <svg class="action-icons" id="paperIcon">
         <desc>Robot hand by Eucalyp from the Noun Project</desc>
@@ -135,7 +135,7 @@
       </svg>
     </button>
 
-    <button id="scissorsButton" on:click={() => playRound("scissors")}>
+    <button class="action-buttons" id="scissorsButton" on:click={() => playRound("scissors")}>
       <!-- <img id="scissorsIcon" src="/icons/r_scissors.svg" alt="Robot hand by Eucalyp from the Noun Project"> -->
       <svg class="action-icons" id="scissorsIcon">
         <desc>Robot hand by Eucalyp from the Noun Project</desc>
@@ -236,7 +236,7 @@
     fill: hsl(120, 100%, 80%);
   }
 
-  button {
+  .action-buttons {
     height: 8em;
     width: 8em;
     margin: 0;
@@ -245,7 +245,7 @@
     border-radius: 50%;
   }
 
-  button:hover {
+  .action-buttons:hover {
     border-color: hsl(120, 100%, 80%);
   }
 </style>

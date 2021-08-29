@@ -1,8 +1,4 @@
 <script>
-  import { svg_element } from "svelte/internal";
-
-  export let name;
-
   let wins = 0;
   let losses = 0;
   let result = '';

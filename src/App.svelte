@@ -94,11 +94,13 @@
       <span class="circle" />
     </div>
 
-    <div class="screen screen-text" id="resultScreen">
-      {#if result}
-        <p id="result">{result}</p>
-        <p id="score">{wins} - {losses}</p>
-      {/if}
+    <div class="screen" id="resultScreen">
+      <div class="screen-text" id="result">
+        {#if result}
+          <p id="result">{result}</p>
+          <p id="score">{wins} - {losses}</p>
+        {/if}
+      </div>
     </div>
   </div>
 
@@ -209,16 +211,16 @@
 
   #resultScreen {
     margin: 2em 46%;
-    height: 7em;
-    line-height: 200%;
+    height: 5.5em;
     border: 1px;
     border-style: solid;
     padding: 0.5em;
     border-color: hsl(120, 100%, 40%);
   }
 
-  .screen-text#resultScreen {
+  .screen-text#result {
     font-size: 0.8em;
+    line-height: 200%;
   }
 
   svg.action-icons {

@@ -53,7 +53,8 @@
   <h1>Rock, Paper, Scissors</h1>
   <p>Svelte Edition</p>
 
-  <div id="screen">
+  <div class="screen" id="gameScreen">
+
     <div>
       <svg class="play-icons" id="playerIcon">
         <desc>Robot hand by Eucalyp from the Noun Project</desc>
@@ -85,9 +86,11 @@
         </g>
       </svg>
     </div>
+
   </div>
 
   <div class="result-container">
+
     <div class="player-score">
       <span class="circle" />
       <span class="circle" />
@@ -102,9 +105,11 @@
         {/if}
       </div>
     </div>
+
   </div>
 
   <div id="buttonsContainer">
+
     <button id="rockButton" on:click={() => playRound("rock")}>
       <!-- <img id="rockIcon" src="/icons/r_rock.svg" alt="Robot hand by Eucalyp from the Noun Project"> -->
       <svg class="action-icons" id="rockIcon">
@@ -119,6 +124,7 @@
         </g>
       </svg>
     </button>
+
     <button id="paperButton" on:click={() => playRound("paper")}>
       <!-- <img id="paperIcon" src="/icons/r_paper.svg" alt="Robot hand by Eucalyp from the Noun Project"> -->
       <svg class="action-icons" id="paperIcon">
@@ -133,6 +139,7 @@
         </g>
       </svg>
     </button>
+
     <button id="scissorsButton" on:click={() => playRound("scissors")}>
       <!-- <img id="scissorsIcon" src="/icons/r_scissors.svg" alt="Robot hand by Eucalyp from the Noun Project"> -->
       <svg class="action-icons" id="scissorsIcon">
@@ -148,11 +155,17 @@
         </g>
       </svg>
     </button>
+
   </div>
+  
 </main>
 
 <style>
   main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
     text-align: center;
     padding: 1em;
     max-width: 240px;
@@ -160,11 +173,10 @@
   }
 
   h1 {
-    /* 	color: #ff3e00; */
     color: hsl(120, 100%, 40%);
     text-transform: uppercase;
     font-size: 2em;
-    font-weight: 100;
+    margin: 1em 0;
   }
 
   @media (min-width: 640px) {
@@ -173,16 +185,19 @@
     }
   }
 
-  #screen {
+  .screen {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0 30%;
-    height: 15em;
     border: 1px;
     border-style: solid;
-    padding: 1em;
     border-color: hsl(120, 100%, 40%);
+    margin: 1em;
+  }
+
+  .screen#gameScreen {
+    width: 40%;
+    height: 15em;
   }
 
   svg.play-icons {
@@ -203,24 +218,17 @@
 
   .screen-text {
     color: hsl(15, 100%, 50%);
-    font-family: "Perfect DOS VGA 437", "Fixedsys";
     font-size: 1em;
-    letter-spacing: -1px;
     text-transform: uppercase;
   }
 
   #resultScreen {
-    margin: 2em 46%;
-    height: 5.5em;
-    border: 1px;
-    border-style: solid;
-    padding: 0.5em;
-    border-color: hsl(120, 100%, 40%);
+    width: 10em;
+    height: 5em;
   }
 
   .screen-text#result {
     font-size: 0.8em;
-    line-height: 200%;
   }
 
   svg.action-icons {

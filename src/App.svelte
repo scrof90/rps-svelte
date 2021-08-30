@@ -12,22 +12,24 @@
     return play;
   }
 
-  function playRound(playerPlay) {
+  function playRound(player) {
     if (newGame) {
       wins = 0;
       losses = 0;
       newGame = false;
     }
 
-    let computerPlay = getComputerPlay();
-
-    // TODO: make a function compare(a,b)
-    if (playerPlay === computerPlay) {
+    compare(player, getComputerPlay());    
+    checkWin();
+  }
+  
+  function compare(player, computer) {
+    if (player === computer) {
       result = "Draw";
     } else if (
-      (playerPlay === "rock" && computerPlay === "paper") ||
-      (playerPlay === "paper" && computerPlay === "rock") ||
-      (playerPlay === "scissors" && computerPlay === "paper")
+      (player === "rock" && computer === "paper") ||
+      (player === "paper" && computer === "rock") ||
+      (player === "scissors" && computer === "paper")
     ) {
       wins++;
       result = "<<<";
@@ -35,8 +37,6 @@
       losses++;
       result = ">>>";
     }
-
-    checkWin();
   }
 
   function checkWin() {

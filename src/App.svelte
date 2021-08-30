@@ -14,7 +14,7 @@
 
   function playRound(player) {
     if (newGame) initNewGame();
-    compare(player, getComputerPlay());    
+    compare(player, getComputerPlay());
     checkGameOver();
   }
 
@@ -23,7 +23,7 @@
     losses = 0;
     newGame = false;
   }
-  
+
   function compare(player, computer) {
     if (player === computer) {
       result = "Draw";
@@ -56,7 +56,7 @@
   <p>Svelte Edition</p>
 
   <div class="screen" id="gameScreen">
-    <div>
+    <div class="play-icons-container">
       <svg class="play-icons" id="playerIcon">
         <desc>Robot hand by Eucalyp from the Noun Project</desc>
         <g transform="matrix(0, -1, -1, 0, 68, 68)">
@@ -74,7 +74,7 @@
       <p id="vs">vs</p>
     </div>
 
-    <div>
+    <div class="play-icons-container">
       <svg class="play-icons" id="computerIcon">
         <desc>Robot hand by Eucalyp from the Noun Project</desc>
         <g transform="matrix(0, -1, -1, 0, 68, 68)">
@@ -115,7 +115,6 @@
       id="rockButton"
       on:click={() => playRound("rock")}
     >
-      <!-- <img id="rockIcon" src="/icons/r_rock.svg" alt="Robot hand by Eucalyp from the Noun Project"> -->
       <svg class="action-icons" id="rockIcon">
         <desc>Robot hand by Eucalyp from the Noun Project</desc>
         <g transform="matrix(0, -1, -1, 0, 68, 68)">
@@ -134,7 +133,6 @@
       id="paperButton"
       on:click={() => playRound("paper")}
     >
-      <!-- <img id="paperIcon" src="/icons/r_paper.svg" alt="Robot hand by Eucalyp from the Noun Project"> -->
       <svg class="action-icons" id="paperIcon">
         <desc>Robot hand by Eucalyp from the Noun Project</desc>
         <g transform="matrix(0, -1, -1, 0, 114, 68)" bx:origin="0.5 0.634665">
@@ -153,7 +151,6 @@
       id="scissorsButton"
       on:click={() => playRound("scissors")}
     >
-      <!-- <img id="scissorsIcon" src="/icons/r_scissors.svg" alt="Robot hand by Eucalyp from the Noun Project"> -->
       <svg class="action-icons" id="scissorsIcon">
         <desc>Robot hand by Eucalyp from the Noun Project</desc>
         <g transform="matrix(0, -1, -1, 0, 65, 68)">
@@ -177,15 +174,14 @@
     align-items: center;
     justify-items: center;
     text-align: center;
-    padding: 1em;
-    max-width: 240px;
-    margin: 0 auto;
+    width: 720px;
+    margin: auto;
   }
 
   h1 {
     color: hsl(120, 100%, 40%);
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 1em 0;
   }
 
@@ -202,19 +198,31 @@
     border: 1px;
     border-style: solid;
     border-color: hsl(120, 100%, 40%);
-    margin: 1em;
+    margin: 1em 0;
   }
 
   .screen#gameScreen {
-    width: 40%;
+    width: 90%;
     height: 15em;
+  }
+
+  @media (max-width: 800px) {
+    .screen#gameScreen {
+      width: 100%;
+    }
+  }
+
+  .play-icons-container {
+    height: 5em;
+    width: 5em;
+    padding: 2em;
   }
 
   svg.play-icons {
     display: inline-block;
-    width: 70px;
-    height: 70px;
-    transform: scale(3);
+    width: inherit;
+    height: inherit;
+    transform: scale(2.5);
   }
 
   svg.play-icons#playerIcon {
@@ -223,7 +231,7 @@
 
   svg.play-icons#computerIcon {
     fill: hsl(60, 100%, 42%);
-    transform: scale(-3, 3);
+    transform: scale(-2.5, 2.5);
   }
 
   .screen-text {
@@ -241,28 +249,29 @@
     font-size: 0.8em;
   }
 
+  .action-buttons {
+    height: 8em;
+    width: 8em;
+    margin: 1em 0.5em;
+    background-color: black;
+    border-color: hsl(120, 100%, 40%);
+    border-radius: 1em;
+    border-width: 0.2em;
+  }
+
+  .action-buttons:hover {
+    border-color: hsl(120, 100%, 80%);
+  }
+
   svg.action-icons {
     fill: hsl(120, 100%, 40%);
     display: inline-block;
-    width: 70px;
-    height: 70px;
+    width: 4.5em;
+    height: 4.5em;
     transform: scale(1.5);
   }
 
   svg.action-icons:hover {
     fill: hsl(120, 100%, 80%);
-  }
-
-  .action-buttons {
-    height: 8em;
-    width: 8em;
-    margin: 0;
-    background-color: black;
-    border-color: hsl(120, 100%, 40%);
-    border-radius: 50%;
-  }
-
-  .action-buttons:hover {
-    border-color: hsl(120, 100%, 80%);
   }
 </style>

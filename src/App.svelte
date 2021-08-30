@@ -13,14 +13,15 @@
   }
 
   function playRound(player) {
-    if (newGame) {
-      wins = 0;
-      losses = 0;
-      newGame = false;
-    }
-
+    if (newGame) initNewGame();
     compare(player, getComputerPlay());    
     checkWin();
+  }
+
+  function initNewGame() {
+    wins = 0;
+    losses = 0;
+    newGame = false;
   }
   
   function compare(player, computer) {

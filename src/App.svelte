@@ -21,6 +21,7 @@
 
     let computerPlay = getComputerPlay();
 
+    // TODO: make a function compare(a,b)
     if (playerPlay === computerPlay) {
       result = "Draw";
     } else if (
@@ -88,6 +89,7 @@
   </div>
 
   <div class="result-container">
+    <!-- TODO: add win counters -->
     <div class="player-score">
       <span class="circle" />
       <span class="circle" />
@@ -102,10 +104,16 @@
         {/if}
       </div>
     </div>
+
+    <!-- TODO: add computer win counters -->
   </div>
 
   <div id="buttonsContainer">
-    <button class="action-buttons" id="rockButton" on:click={() => playRound("rock")}>
+    <button
+      class="action-buttons"
+      id="rockButton"
+      on:click={() => playRound("rock")}
+    >
       <!-- <img id="rockIcon" src="/icons/r_rock.svg" alt="Robot hand by Eucalyp from the Noun Project"> -->
       <svg class="action-icons" id="rockIcon">
         <desc>Robot hand by Eucalyp from the Noun Project</desc>
@@ -120,7 +128,11 @@
       </svg>
     </button>
 
-    <button class="action-buttons" id="paperButton" on:click={() => playRound("paper")}>
+    <button
+      class="action-buttons"
+      id="paperButton"
+      on:click={() => playRound("paper")}
+    >
       <!-- <img id="paperIcon" src="/icons/r_paper.svg" alt="Robot hand by Eucalyp from the Noun Project"> -->
       <svg class="action-icons" id="paperIcon">
         <desc>Robot hand by Eucalyp from the Noun Project</desc>
@@ -135,7 +147,11 @@
       </svg>
     </button>
 
-    <button class="action-buttons" id="scissorsButton" on:click={() => playRound("scissors")}>
+    <button
+      class="action-buttons"
+      id="scissorsButton"
+      on:click={() => playRound("scissors")}
+    >
       <!-- <img id="scissorsIcon" src="/icons/r_scissors.svg" alt="Robot hand by Eucalyp from the Noun Project"> -->
       <svg class="action-icons" id="scissorsIcon">
         <desc>Robot hand by Eucalyp from the Noun Project</desc>

@@ -15,7 +15,7 @@
   function playRound(player) {
     if (newGame) initNewGame();
     compare(player, getComputerPlay());    
-    checkWin();
+    checkGameOver();
   }
 
   function initNewGame() {
@@ -40,7 +40,7 @@
     }
   }
 
-  function checkWin() {
+  function checkGameOver() {
     if (wins === 3) {
       result = "You Win!";
       newGame = true;

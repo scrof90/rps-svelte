@@ -1,5 +1,5 @@
 
-(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35731/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 var app = (function () {
     'use strict';
 
@@ -370,7 +370,7 @@ var app = (function () {
     			add_location(path1, file, 102, 12, 12390);
     			attr_dev(g, "transform", "matrix(0, -1, -1, 0, 68, 68)");
     			add_location(g, file, 97, 10, 9172);
-    			attr_dev(svg, "class", "play-icons player-icon svelte-k1qkkj");
+    			attr_dev(svg, "class", "play-icons player-icon svelte-18z94hs");
     			attr_dev(svg, "id", "playerScissorsIcon");
     			add_location(svg, file, 95, 8, 9034);
     		},
@@ -423,7 +423,7 @@ var app = (function () {
     			attr_dev(g, "transform", "matrix(0, -1, -1, 0, 119, 68)");
     			attr_dev(g, "bx:origin", "0.5 0.634665");
     			add_location(g, file, 85, 10, 4745);
-    			attr_dev(svg, "class", "play-icons player-icon svelte-k1qkkj");
+    			attr_dev(svg, "class", "play-icons player-icon svelte-18z94hs");
     			attr_dev(svg, "id", "playerPaperIcon");
     			add_location(svg, file, 83, 8, 4610);
     		},
@@ -475,7 +475,7 @@ var app = (function () {
     			add_location(path1, file, 77, 12, 4323);
     			attr_dev(g, "transform", "matrix(0, -1, -1, 0, 68, 68)");
     			add_location(g, file, 73, 10, 1633);
-    			attr_dev(svg, "class", "play-icons player-icon svelte-k1qkkj");
+    			attr_dev(svg, "class", "play-icons player-icon svelte-18z94hs");
     			attr_dev(svg, "id", "playerRockIcon");
     			add_location(svg, file, 71, 8, 1499);
     		},
@@ -528,7 +528,7 @@ var app = (function () {
     			add_location(path1, file, 150, 12, 23790);
     			attr_dev(g, "transform", "matrix(0, -1, -1, 0, 68, 68)");
     			add_location(g, file, 145, 10, 20572);
-    			attr_dev(svg, "class", "play-icons computer-icon svelte-k1qkkj");
+    			attr_dev(svg, "class", "play-icons computer-icon svelte-18z94hs");
     			attr_dev(svg, "id", "computerScissorsIcon");
     			add_location(svg, file, 143, 8, 20430);
     		},
@@ -581,7 +581,7 @@ var app = (function () {
     			attr_dev(g, "transform", "matrix(0, -1, -1, 0, 119, 68)");
     			attr_dev(g, "bx:origin", "0.5 0.634665");
     			add_location(g, file, 133, 10, 16141);
-    			attr_dev(svg, "class", "play-icons computer-icon svelte-k1qkkj");
+    			attr_dev(svg, "class", "play-icons computer-icon svelte-18z94hs");
     			attr_dev(svg, "id", "computerPaperIcon");
     			add_location(svg, file, 131, 8, 16002);
     		},
@@ -633,7 +633,7 @@ var app = (function () {
     			add_location(path1, file, 125, 12, 15713);
     			attr_dev(g, "transform", "matrix(0, -1, -1, 0, 68, 68)");
     			add_location(g, file, 121, 10, 13023);
-    			attr_dev(svg, "class", "play-icons computer-icon svelte-k1qkkj");
+    			attr_dev(svg, "class", "play-icons computer-icon svelte-18z94hs");
     			attr_dev(svg, "id", "computerRockIcon");
     			add_location(svg, file, 119, 8, 12885);
     		},
@@ -816,20 +816,20 @@ var app = (function () {
     			g2 = svg_element("g");
     			path4 = svg_element("path");
     			path5 = svg_element("path");
-    			attr_dev(h1, "class", "svelte-k1qkkj");
+    			attr_dev(h1, "class", "svelte-18z94hs");
     			add_location(h1, file, 61, 2, 1204);
     			add_location(p0, file, 62, 2, 1237);
-    			attr_dev(div0, "class", div0_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-k1qkkj");
+    			attr_dev(div0, "class", div0_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-18z94hs");
     			attr_dev(div0, "id", "playerIconContainer");
     			add_location(div0, file, 65, 4, 1303);
     			attr_dev(p1, "id", "vs");
     			add_location(p1, file, 111, 6, 12693);
-    			attr_dev(div1, "class", "screen-text svelte-k1qkkj");
+    			attr_dev(div1, "class", "screen-text svelte-18z94hs");
     			add_location(div1, file, 110, 4, 12661);
-    			attr_dev(div2, "class", div2_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-k1qkkj");
+    			attr_dev(div2, "class", div2_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-18z94hs");
     			attr_dev(div2, "id", "computerIconContainer");
     			add_location(div2, file, 114, 4, 12727);
-    			attr_dev(div3, "class", "screen svelte-k1qkkj");
+    			attr_dev(div3, "class", "screen svelte-18z94hs");
     			attr_dev(div3, "id", "gameScreen");
     			add_location(div3, file, 64, 2, 1262);
     			attr_dev(span0, "class", "circle");
@@ -844,10 +844,10 @@ var app = (function () {
     			add_location(p2, file, 169, 8, 24396);
     			attr_dev(p3, "id", "score");
     			add_location(p3, file, 170, 8, 24432);
-    			attr_dev(div5, "class", "screen-text svelte-k1qkkj");
+    			attr_dev(div5, "class", "screen-text svelte-18z94hs");
     			attr_dev(div5, "id", "results");
     			add_location(div5, file, 168, 6, 24349);
-    			attr_dev(div6, "class", "screen svelte-k1qkkj");
+    			attr_dev(div6, "class", "screen svelte-18z94hs");
     			attr_dev(div6, "id", "resultScreen");
     			add_location(div6, file, 167, 4, 24304);
     			attr_dev(span3, "class", "circle");
@@ -868,10 +868,10 @@ var app = (function () {
     			add_location(path1, file, 198, 10, 27748);
     			attr_dev(g0, "transform", "matrix(0, -1, -1, 0, 68, 68)");
     			add_location(g0, file, 194, 8, 25066);
-    			attr_dev(svg0, "class", "action-icons svelte-k1qkkj");
+    			attr_dev(svg0, "class", "action-icons svelte-18z94hs");
     			attr_dev(svg0, "id", "rockIcon");
     			add_location(svg0, file, 192, 6, 24952);
-    			attr_dev(button0, "class", "action-buttons svelte-k1qkkj");
+    			attr_dev(button0, "class", "action-buttons svelte-18z94hs");
     			attr_dev(button0, "id", "rockButton");
     			button0.disabled = /*animated*/ ctx[2];
     			add_location(button0, file, 183, 4, 24766);
@@ -883,10 +883,10 @@ var app = (function () {
     			attr_dev(g1, "transform", "matrix(0, -1, -1, 0, 114, 68)");
     			attr_dev(g1, "bx:origin", "0.5 0.634665");
     			add_location(g1, file, 216, 8, 28305);
-    			attr_dev(svg1, "class", "action-icons svelte-k1qkkj");
+    			attr_dev(svg1, "class", "action-icons svelte-18z94hs");
     			attr_dev(svg1, "id", "paperIcon");
     			add_location(svg1, file, 214, 6, 28190);
-    			attr_dev(button1, "class", "action-buttons svelte-k1qkkj");
+    			attr_dev(button1, "class", "action-buttons svelte-18z94hs");
     			attr_dev(button1, "id", "paperButton");
     			button1.disabled = /*animated*/ ctx[2];
     			add_location(button1, file, 205, 4, 28002);
@@ -898,17 +898,17 @@ var app = (function () {
     			add_location(path5, file, 243, 10, 36095);
     			attr_dev(g2, "transform", "matrix(0, -1, -1, 0, 65, 68)");
     			add_location(g2, file, 238, 8, 32887);
-    			attr_dev(svg2, "class", "action-icons svelte-k1qkkj");
+    			attr_dev(svg2, "class", "action-icons svelte-18z94hs");
     			attr_dev(svg2, "id", "scissorsIcon");
     			add_location(svg2, file, 236, 6, 32769);
-    			attr_dev(button2, "class", "action-buttons svelte-k1qkkj");
+    			attr_dev(button2, "class", "action-buttons svelte-18z94hs");
     			attr_dev(button2, "id", "scissorsButton");
     			button2.disabled = /*animated*/ ctx[2];
     			add_location(button2, file, 227, 4, 32575);
     			attr_dev(div9, "class", "buttons-container");
     			attr_dev(div9, "id", "buttonsContainer");
     			add_location(div9, file, 182, 2, 24708);
-    			attr_dev(main, "class", "svelte-k1qkkj");
+    			attr_dev(main, "class", "svelte-18z94hs");
     			add_location(main, file, 60, 0, 1195);
     		},
     		l: function claim(nodes) {
@@ -1002,7 +1002,7 @@ var app = (function () {
     				}
     			}
 
-    			if (dirty & /*animated*/ 4 && div0_class_value !== (div0_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-k1qkkj")) {
+    			if (dirty & /*animated*/ 4 && div0_class_value !== (div0_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-18z94hs")) {
     				attr_dev(div0, "class", div0_class_value);
     			}
 
@@ -1016,7 +1016,7 @@ var app = (function () {
     				}
     			}
 
-    			if (dirty & /*animated*/ 4 && div2_class_value !== (div2_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-k1qkkj")) {
+    			if (dirty & /*animated*/ 4 && div2_class_value !== (div2_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-18z94hs")) {
     				attr_dev(div2, "class", div2_class_value);
     			}
 

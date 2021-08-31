@@ -327,7 +327,7 @@
 
   .screen-text {
     color: hsl(15, 100%, 50%);
-    font-size: 1em;
+    font-size: 0.8em;
     text-transform: uppercase;
   }
 

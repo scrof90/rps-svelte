@@ -60,7 +60,7 @@
 
 <main>
   <h1>Rock, Paper, Scissors</h1>
-  <p>Svelte Edition</p>
+  <h2>Svelte Edition</h2>
 
   <div class="screen" id="gameScreen">
     <div
@@ -264,9 +264,12 @@
   h1 {
     color: hsl(120, 100%, 40%);
     text-transform: uppercase;
-    font-size: 1.5em;
-    margin: 1em 0;
-    line-height: 200%;
+    font-size: 3em;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 2em;
   }
 
   @media (min-width: 640px) {
@@ -327,13 +330,17 @@
 
   .screen-text {
     color: hsl(15, 100%, 50%);
-    font-size: 0.8em;
+    font-size: 2em;
     text-transform: uppercase;
   }
 
   .screen#resultScreen {
     width: 10em;
     height: 5em;
+  }
+
+  .buttons-container {
+    display: flex;
   }
 
   .action-buttons {
@@ -343,6 +350,7 @@
     border-color: hsl(120, 100%, 40%);
     border-radius: 1em;
     border-width: 0.2em;
+    margin: 1em 0.8em;
   }
 
   .action-buttons:hover {
@@ -362,7 +370,11 @@
 
   @media (max-width: 700px) {
     h1 {
-      font-size: 0.8em;
+      font-size: 1.5em;
+    }
+
+    h2 {
+      font-size: 1em;
     }
 
     .screen {

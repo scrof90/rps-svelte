@@ -1,5 +1,5 @@
 
-(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35735/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 var app = (function () {
     'use strict';
 
@@ -345,7 +345,7 @@ var app = (function () {
 
     const file = "src/App.svelte";
 
-    // (95:6) {:else}
+    // (107:8) {:else}
     function create_else_block_1(ctx) {
     	let svg;
     	let desc;
@@ -362,17 +362,17 @@ var app = (function () {
     			g = svg_element("g");
     			path0 = svg_element("path");
     			path1 = svg_element("path");
-    			add_location(desc, file, 96, 10, 9107);
+    			add_location(desc, file, 108, 12, 9309);
     			attr_dev(path0, "d", "m 37,53 v -2 m 0,0 h -4 v -2.382 l 4,-2 v -3.802 c 1.161,-0.414 2,-1.514 2,-2.816 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 0,1.302 0.839,2.402 2,2.816 v 2.566 l -4,2 V 51 h -2 v -8.184 c 1.161,-0.414 2,-1.514 2,-2.816 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 0,1.302 0.839,2.402 2,2.816 V 51 h -2 v -3.618 l -4,-2 v -2.566 c 1.161,-0.414 2,-1.514 2,-2.816 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 0,1.302 0.839,2.402 2,2.816 v 3.802 l 4,2 V 51 H 15 V 35 h 26 v 16 h -2 m 0,0 -0.257,2 m 0,0 h 1.639 L 43,53.005 V 33 h -2 l -0.06012,-1.309104 1.969941,0.345448 1.381791,-7.879762 -1.96994,-0.345448 0.345448,-1.969941 1.96994,0.345448 1.381792,-7.879762 -1.969941,-0.345448 0.345448,-1.969941 1.969941,0.345448 1.209068,-6.8947916 C 47.859054,3.8130056 46.76577,2.2547492 45.13663,1.9690638 43.507489,1.6833783 41.949232,2.7766619 41.663547,4.4058027 l -1.209068,6.8947923 1.969941,0.345448 -0.345448,1.96994 -1.969941,-0.345448 -1.381791,7.879762 1.96994,0.345448 -0.345448,1.969941 -1.96994,-0.345448 L 37,31 38.969941,31.345448 39,33 h -6 l -0.01015,-2.284704 1.994928,-0.142351 -0.569408,-7.979711 -1.994927,0.142352 -0.142352,-1.994927 1.994928,-0.142352 -0.569408,-7.97971 -1.994927,0.142351 -0.142352,-1.994927 1.994928,-0.142352 -0.498232,-6.9822465 C 32.945308,1.9916174 31.506919,0.74483396 29.857114,0.86255891 28.207309,0.98028386 26.960526,2.4186729 27.07825,4.068478 l 0.498232,6.982246 1.994927,-0.142351 0.142352,1.994927 -1.994927,0.142352 0.569407,7.97971 1.994927,-0.142352 0.142352,1.994928 L 28.430593,23.02029 29,31 30.994928,30.857648 31,33 h -6 v -1.827 h 2 v -7 c 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 v 7 h 2 V 33 h -6 v -1.827 h 2 v -7 c 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 v 7 h 2 V 33 H 13 V 52.974 L 15.516,53 H 37 M 29.073178,3.9261262 c -0.03922,-0.5496026 0.376685,-1.0294218 0.926288,-1.0686397 0.549602,-0.039218 1.029422,0.3766853 1.06864,0.9262878 l 0.355879,4.9873189 -1.994927,0.1423518 z m 0.782935,10.9721018 1.994928,-0.142352 0.284703,3.989855 -1.994927,0.142352 z m 0.711759,9.974638 1.994928,-0.142352 0.284703,3.989855 -1.994927,0.142352 z M 23,24.173 c 0,-0.551 0.449,-1 1,-1 0.551,0 1,0.449 1,1 v 5 h -2 z m -8,0 c 0,-0.551 0.449,-1 1,-1 0.551,0 1,0.449 1,1 v 5 H 15 Z M 36,39 c 0.551,0 1,0.449 1,1 0,0.551 -0.449,1 -1,1 -0.551,0 -1,-0.449 -1,-1 0,-0.551 0.449,-1 1,-1 z m -8,0 c 0.551,0 1,0.449 1,1 0,0.551 -0.449,1 -1,1 -0.551,0 -1,-0.449 -1,-1 0,-0.551 0.449,-1 1,-1 z m -8,0 c 0.551,0 1,0.449 1,1 0,0.551 -0.449,1 -1,1 -0.551,0 -1,-0.449 -1,-1 0,-0.551 0.449,-1 1,-1 z m 21.285329,-9.279045 -1.969941,-0.345448 0.690896,-3.939881 1.969941,0.345448 z m 1.72724,-9.849702 -1.969941,-0.345448 0.690896,-3.939881 1.96994,0.345448 z m 1.727239,-9.849703 -1.96994,-0.345448 0.863619,-4.9248514 c 0.09517,-0.5427186 0.614976,-0.9074172 1.157695,-0.8122463 0.542718,0.095171 0.907417,0.6149756 0.812246,1.1576942 z");
     			attr_dev(path0, "sodipodi:nodetypes", "cccccccsssccccccsssccccccsssccccccccccccccccccccccccccsssccccccccccccccccccccccsssccccccccccccccsssccccccssscccccccsssccsccccccccccsssccssssccssssssssssssssssccccccccccccsssc");
-    			add_location(path0, file, 98, 12, 9231);
+    			add_location(path0, file, 110, 14, 9437);
     			attr_dev(path1, "d", "M 51.059 34.291 L 49.594 32.926 L 45.042 29.059 L 45 32.62 L 45 47.817 L 53.865 36.906 L 51.059 34.291 Z M 47 42.184 L 47 33.38 L 47.067 33.304 L 51.134 37.094 L 47 42.184 Z");
-    			add_location(path1, file, 102, 12, 12392);
+    			add_location(path1, file, 114, 14, 12606);
     			attr_dev(g, "transform", "matrix(0, -1, -1, 0, 68, 68)");
-    			add_location(g, file, 97, 10, 9174);
-    			attr_dev(svg, "class", "play-icons player-icon svelte-ysa9mg");
+    			add_location(g, file, 109, 12, 9378);
+    			attr_dev(svg, "class", "play-icons player-icon svelte-1g38s3z");
     			attr_dev(svg, "id", "playerScissorsIcon");
-    			add_location(svg, file, 95, 8, 9036);
+    			add_location(svg, file, 107, 10, 9236);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, svg, anchor);
@@ -391,14 +391,14 @@ var app = (function () {
     		block,
     		id: create_else_block_1.name,
     		type: "else",
-    		source: "(95:6) {:else}",
+    		source: "(107:8) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (83:35) 
+    // (92:37) 
     function create_if_block_3(ctx) {
     	let svg;
     	let desc;
@@ -415,17 +415,17 @@ var app = (function () {
     			g = svg_element("g");
     			path0 = svg_element("path");
     			path1 = svg_element("path");
-    			add_location(desc, file, 84, 10, 4680);
+    			add_location(desc, file, 93, 12, 4817);
     			attr_dev(path0, "d", "M 37 103.69 L 37 101.69 M 37 101.69 L 33 101.69 L 33 99.308 L 37 97.308 L 37 93.506 C 38.161 93.092 39 91.992 39 90.69 C 39 89.036 37.654 87.69 36 87.69 C 34.346 87.69 33 89.036 33 90.69 C 33 91.992 33.839 93.092 35 93.506 L 35 96.072 L 31 98.072 L 31 101.69 L 29 101.69 L 29 93.506 C 30.161 93.092 31 91.992 31 90.69 C 31 89.036 29.654 87.69 28 87.69 C 26.346 87.69 25 89.036 25 90.69 C 25 91.992 25.839 93.092 27 93.506 L 27 101.69 L 25 101.69 L 25 98.072 L 21 96.072 L 21 93.506 C 22.161 93.092 23 91.992 23 90.69 C 23 89.036 21.654 87.69 20 87.69 C 18.346 87.69 17 89.036 17 90.69 C 17 91.992 17.839 93.092 19 93.506 L 19 97.308 L 23 99.308 L 23 101.69 L 15 101.69 L 15 85.69 L 41 85.69 L 41 101.69 L 39 101.69 M 39 101.69 L 39 103.69 M 39 103.69 L 40.382 103.69 L 43 103.639 L 43 83.69 L 41 83.69 L 41 81.69 L 43 81.69 L 43 73.69 L 41 73.69 L 41 71.69 L 43 71.69 L 43 63.69 L 41 63.69 L 41 61.69 L 43 61.69 L 43 54.69 C 43 53.036 41.654 51.69 40 51.69 L 40 51.69 C 38.346 51.69 37 53.036 37 54.69 L 37 61.69 L 39 61.69 L 39 63.69 L 37 63.69 L 37 71.69 L 39 71.69 L 39 73.69 L 37 73.69 L 37 81.69 L 39 81.69 L 39 83.69 L 33 83.69 L 33 81.69 L 35 81.69 L 35 73.69 L 33 73.69 L 33 71.69 L 35 71.69 L 35 63.69 L 33 63.69 L 33 61.69 L 35 61.69 L 35 54.69 C 35 53.036 33.654 51.69 32 51.69 C 30.346 51.69 29 53.036 29 54.69 L 29 61.69 L 31 61.69 L 31 63.69 L 29 63.69 L 29 71.69 L 31 71.69 L 31 73.69 L 29 73.69 L 29 81.69 L 31 81.69 L 31 83.69 L 25 83.69 L 25 81.69 L 27 81.69 L 27 73.69 L 25 73.69 L 25 71.69 L 27 71.69 L 27 63.69 L 25 63.69 L 25 61.69 L 27 61.69 L 27 54.69 C 27 53.036 25.654 51.69 24 51.69 C 22.346 51.69 21 53.036 21 54.69 L 21 61.69 L 23 61.69 L 23 63.69 L 21 63.69 L 21 71.69 L 23 71.69 L 23 73.69 L 21 73.69 L 21 81.69 L 23 81.69 L 23 83.69 L 17 83.69 L 17 81.69 L 19 81.69 L 19 73.69 L 17 73.69 L 17 71.69 L 19 71.69 L 19 63.69 L 17 63.69 L 17 61.69 L 19 61.69 L 19 54.69 C 19 53.036 17.654 51.69 16 51.69 C 14.346 51.69 13 53.036 13 54.69 L 13 61.69 L 15 61.69 L 15 63.69 L 13 63.69 L 13 71.69 L 15 71.69 L 15 73.69 L 13 73.69 L 13 81.69 L 15 81.69 L 15 83.69 L 13 83.69 L 13 103.697 L 15.516 103.69 L 37 103.69 M 31 54.69 C 31 54.139 31.449 53.69 32 53.69 C 32.551 53.69 33 54.139 33 54.69 L 33 59.69 L 31 59.69 L 31 54.69 Z M 31 65.69 L 33 65.69 L 33 69.69 L 31 69.69 L 31 65.69 Z M 31 75.69 L 33 75.69 L 33 79.69 L 31 79.69 L 31 75.69 Z M 23 54.69 C 23 54.139 23.449 53.69 24 53.69 C 24.551 53.69 25 54.139 25 54.69 L 25 59.69 L 23 59.69 L 23 54.69 Z M 23 65.69 L 25 65.69 L 25 69.69 L 23 69.69 L 23 65.69 Z M 23 75.69 L 25 75.69 L 25 79.69 L 23 79.69 L 23 75.69 Z M 15 54.69 C 15 54.139 15.449 53.69 16 53.69 C 16.551 53.69 17 54.139 17 54.69 L 17 59.69 L 15 59.69 L 15 54.69 Z M 15 65.69 L 17 65.69 L 17 69.69 L 15 69.69 L 15 65.69 Z M 15 75.69 L 17 75.69 L 17 79.69 L 15 79.69 L 15 75.69 Z M 36 89.69 C 36.551 89.69 37 90.139 37 90.69 C 37 91.241 36.551 91.69 36 91.69 C 35.449 91.69 35 91.241 35 90.69 C 35 90.139 35.449 89.69 36 89.69 Z M 28 89.69 C 28.551 89.69 29 90.139 29 90.69 C 29 91.241 28.551 91.69 28 91.69 C 27.449 91.69 27 91.241 27 90.69 C 27 90.139 27.449 89.69 28 89.69 Z M 20 89.69 C 20.551 89.69 21 90.139 21 90.69 C 21 91.241 20.551 91.69 20 91.69 C 19.449 91.69 19 91.241 19 90.69 C 19 90.139 19.449 89.69 20 89.69 Z M 41 79.69 L 39 79.69 L 39 75.69 L 41 75.69 L 41 79.69 Z M 41 69.69 L 39 69.69 L 39 65.69 L 41 65.69 L 41 69.69 Z M 41 59.69 L 39 59.69 L 39 54.69 C 39 54.139 39.449 53.69 40 53.69 C 40.551 53.69 41 54.139 41 54.69 L 41 59.69 Z");
-    			add_location(path0, file, 86, 12, 4830);
+    			add_location(path0, file, 98, 14, 5012);
     			attr_dev(path1, "d", "M 55.549 73.69 C 54.279 73.69 53.067 74.234 52.223 75.184 L 48.149 79.767 L 50.802 82.166 L 49.594 83.616 L 46.933 81.136 L 45 83.31 L 45 98.507 L 53.865 87.596 L 51.059 84.981 L 52.286 83.508 L 55.111 86.062 L 59.003 81.271 C 59.646 80.481 60 79.484 60 78.465 L 60 78.141 C 60 75.687 58.003 73.69 55.549 73.69 Z M 47 92.874 L 47 84.07 L 47.067 83.994 L 51.134 87.784 L 47 92.874 Z M 58 78.465 C 58 79.026 57.805 79.575 57.451 80.01 L 54.889 83.164 L 50.962 79.613 L 53.718 76.512 C 54.183 75.99 54.85 75.69 55.549 75.69 C 56.9 75.69 58 76.79 58 78.141 L 58 78.465 Z");
-    			add_location(path1, file, 89, 12, 8378);
+    			add_location(path1, file, 101, 14, 8566);
     			attr_dev(g, "transform", "matrix(0, -1, -1, 0, 119, 68)");
     			attr_dev(g, "bx:origin", "0.5 0.634665");
-    			add_location(g, file, 85, 10, 4747);
-    			attr_dev(svg, "class", "play-icons player-icon svelte-ysa9mg");
+    			add_location(g, file, 94, 12, 4886);
+    			attr_dev(svg, "class", "play-icons player-icon svelte-1g38s3z");
     			attr_dev(svg, "id", "playerPaperIcon");
-    			add_location(svg, file, 83, 8, 4612);
+    			add_location(svg, file, 92, 10, 4747);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, svg, anchor);
@@ -444,14 +444,14 @@ var app = (function () {
     		block,
     		id: create_if_block_3.name,
     		type: "if",
-    		source: "(83:35) ",
+    		source: "(92:37) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (71:6) {#if player === 'rock' || animated}
+    // (80:8) {#if player === 'rock' || animated}
     function create_if_block_2(ctx) {
     	let svg;
     	let desc;
@@ -468,16 +468,16 @@ var app = (function () {
     			g = svg_element("g");
     			path0 = svg_element("path");
     			path1 = svg_element("path");
-    			add_location(desc, file, 72, 10, 1568);
+    			add_location(desc, file, 81, 12, 1681);
     			attr_dev(path0, "d", "M 37 53 L 37 51 M 37 51 L 33 51 L 33 48.618 L 37 46.618 L 37 42.816 C 38.161 42.402 39 41.302 39 40 C 39 38.346 37.654 37 36 37 C 34.346 37 33 38.346 33 40 C 33 41.302 33.839 42.402 35 42.816 L 35 45.382 L 31 47.382 L 31 51 L 29 51 L 29 42.816 C 30.161 42.402 31 41.302 31 40 C 31 38.346 29.654 37 28 37 C 26.346 37 25 38.346 25 40 C 25 41.302 25.839 42.402 27 42.816 L 27 51 L 25 51 L 25 47.382 L 21 45.382 L 21 42.816 C 22.161 42.402 23 41.302 23 40 C 23 38.346 21.654 37 20 37 C 18.346 37 17 38.346 17 40 C 17 41.302 17.839 42.402 19 42.816 L 19 46.618 L 23 48.618 L 23 51 L 15 51 L 15 35 L 41 35 L 41 51 L 39 51 M 39 51 L 38.743 53 M 38.743 53 L 40.382 53 L 43 53.005 L 43 33 L 41 33 L 41 31 L 43 31 L 43 23 L 41 23 L 41 21.103 L 43 21.103 L 43 17.831 C 43 16.177 41.654 14.831 40 14.831 C 38.346 14.831 37 16.177 37 17.831 L 37 21.103 L 39 21.103 L 39 23 L 37 23 L 37 31 L 39 31 L 39 33 L 33 33 L 33 31 L 35 31 L 35 23 L 33 23 L 33 21.103 L 35 21.103 L 35 17.831 C 35 16.177 33.654 14.831 32 14.831 C 30.346 14.831 29 16.177 29 17.831 L 29 21.103 L 31 21.103 L 31 23 L 29 23 L 29 31 L 31 31 L 31 33 L 25 33 L 25 31 L 27 31 L 27 23 L 25 23 L 25 21.103 L 27 21.103 L 27 17.831 C 27 16.177 25.654 14.831 24 14.831 C 22.346 14.831 21 16.177 21 17.831 L 21 21.103 L 23 21.103 L 23 23 L 21 23 L 21 31 L 23 31 L 23 33 L 17 33 L 17 31 L 19 31 L 19 23 L 17 23 L 17 21.103 L 19 21.103 L 19 17.831 C 19 16.177 17.654 14.831 16 14.831 C 14.346 14.831 13 16.177 13 17.831 L 13 21.103 L 15 21.103 L 15 23 L 13 23 L 13 31 L 15 31 L 15 33 L 13 33 L 13 52.974 L 15.516 53 L 37 53 M 31 17.831 C 31 17.28 31.449 16.831 32 16.831 C 32.551 16.831 33 17.28 33 17.831 L 33 19.103 L 31 19.103 L 31 17.831 Z M 31 25 L 33 25 L 33 29 L 31 29 L 31 25 Z M 23 17.831 C 23 17.28 23.449 16.831 24 16.831 C 24.551 16.831 25 17.28 25 17.831 L 25 19.103 L 23 19.103 L 23 17.831 Z M 23 25 L 25 25 L 25 29 L 23 29 L 23 25 Z M 15 17.831 C 15 17.28 15.449 16.831 16 16.831 C 16.551 16.831 17 17.28 17 17.831 L 17 19.103 L 15 19.103 L 15 17.831 Z M 15 25 L 17 25 L 17 29 L 15 29 L 15 25 Z M 36 39 C 36.551 39 37 39.449 37 40 C 37 40.551 36.551 41 36 41 C 35.449 41 35 40.551 35 40 C 35 39.449 35.449 39 36 39 Z M 28 39 C 28.551 39 29 39.449 29 40 C 29 40.551 28.551 41 28 41 C 27.449 41 27 40.551 27 40 C 27 39.449 27.449 39 28 39 Z M 20 39 C 20.551 39 21 39.449 21 40 C 21 40.551 20.551 41 20 41 C 19.449 41 19 40.551 19 40 C 19 39.449 19.449 39 20 39 Z M 41 29 L 39 29 L 39 25 L 41 25 L 41 29 Z M 41 19.103 L 39 19.103 L 39 17.831 C 39 17.28 39.449 16.831 40 16.831 C 40.551 16.831 41 17.28 41 17.831 L 41 19.103 Z");
-    			add_location(path0, file, 74, 12, 1692);
+    			add_location(path0, file, 83, 14, 1809);
     			attr_dev(path1, "d", "M 51.059 34.291 L 49.594 32.926 L 45.096 29.221 L 45 32.62 L 45 47.817 L 53.865 36.906 L 51.059 34.291 Z M 47 42.184 L 47 33.38 L 47.067 33.304 L 51.134 37.094 L 47 42.184 Z");
-    			add_location(path1, file, 77, 12, 4325);
+    			add_location(path1, file, 86, 14, 4448);
     			attr_dev(g, "transform", "matrix(0, -1, -1, 0, 68, 68)");
-    			add_location(g, file, 73, 10, 1635);
-    			attr_dev(svg, "class", "play-icons player-icon svelte-ysa9mg");
+    			add_location(g, file, 82, 12, 1750);
+    			attr_dev(svg, "class", "play-icons player-icon svelte-1g38s3z");
     			attr_dev(svg, "id", "playerRockIcon");
-    			add_location(svg, file, 71, 8, 1501);
+    			add_location(svg, file, 80, 10, 1612);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, svg, anchor);
@@ -496,14 +496,14 @@ var app = (function () {
     		block,
     		id: create_if_block_2.name,
     		type: "if",
-    		source: "(71:6) {#if player === 'rock' || animated}",
+    		source: "(80:8) {#if player === 'rock' || animated}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (143:6) {:else}
+    // (158:8) {:else}
     function create_else_block(ctx) {
     	let svg;
     	let desc;
@@ -520,17 +520,17 @@ var app = (function () {
     			g = svg_element("g");
     			path0 = svg_element("path");
     			path1 = svg_element("path");
-    			add_location(desc, file, 144, 10, 20507);
+    			add_location(desc, file, 159, 12, 20842);
     			attr_dev(path0, "d", "m 37,53 v -2 m 0,0 h -4 v -2.382 l 4,-2 v -3.802 c 1.161,-0.414 2,-1.514 2,-2.816 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 0,1.302 0.839,2.402 2,2.816 v 2.566 l -4,2 V 51 h -2 v -8.184 c 1.161,-0.414 2,-1.514 2,-2.816 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 0,1.302 0.839,2.402 2,2.816 V 51 h -2 v -3.618 l -4,-2 v -2.566 c 1.161,-0.414 2,-1.514 2,-2.816 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 0,1.302 0.839,2.402 2,2.816 v 3.802 l 4,2 V 51 H 15 V 35 h 26 v 16 h -2 m 0,0 -0.257,2 m 0,0 h 1.639 L 43,53.005 V 33 h -2 l -0.06012,-1.309104 1.969941,0.345448 1.381791,-7.879762 -1.96994,-0.345448 0.345448,-1.969941 1.96994,0.345448 1.381792,-7.879762 -1.969941,-0.345448 0.345448,-1.969941 1.969941,0.345448 1.209068,-6.8947916 C 47.859054,3.8130056 46.76577,2.2547492 45.13663,1.9690638 43.507489,1.6833783 41.949232,2.7766619 41.663547,4.4058027 l -1.209068,6.8947923 1.969941,0.345448 -0.345448,1.96994 -1.969941,-0.345448 -1.381791,7.879762 1.96994,0.345448 -0.345448,1.969941 -1.96994,-0.345448 L 37,31 38.969941,31.345448 39,33 h -6 l -0.01015,-2.284704 1.994928,-0.142351 -0.569408,-7.979711 -1.994927,0.142352 -0.142352,-1.994927 1.994928,-0.142352 -0.569408,-7.97971 -1.994927,0.142351 -0.142352,-1.994927 1.994928,-0.142352 -0.498232,-6.9822465 C 32.945308,1.9916174 31.506919,0.74483396 29.857114,0.86255891 28.207309,0.98028386 26.960526,2.4186729 27.07825,4.068478 l 0.498232,6.982246 1.994927,-0.142351 0.142352,1.994927 -1.994927,0.142352 0.569407,7.97971 1.994927,-0.142352 0.142352,1.994928 L 28.430593,23.02029 29,31 30.994928,30.857648 31,33 h -6 v -1.827 h 2 v -7 c 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 v 7 h 2 V 33 h -6 v -1.827 h 2 v -7 c 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 v 7 h 2 V 33 H 13 V 52.974 L 15.516,53 H 37 M 29.073178,3.9261262 c -0.03922,-0.5496026 0.376685,-1.0294218 0.926288,-1.0686397 0.549602,-0.039218 1.029422,0.3766853 1.06864,0.9262878 l 0.355879,4.9873189 -1.994927,0.1423518 z m 0.782935,10.9721018 1.994928,-0.142352 0.284703,3.989855 -1.994927,0.142352 z m 0.711759,9.974638 1.994928,-0.142352 0.284703,3.989855 -1.994927,0.142352 z M 23,24.173 c 0,-0.551 0.449,-1 1,-1 0.551,0 1,0.449 1,1 v 5 h -2 z m -8,0 c 0,-0.551 0.449,-1 1,-1 0.551,0 1,0.449 1,1 v 5 H 15 Z M 36,39 c 0.551,0 1,0.449 1,1 0,0.551 -0.449,1 -1,1 -0.551,0 -1,-0.449 -1,-1 0,-0.551 0.449,-1 1,-1 z m -8,0 c 0.551,0 1,0.449 1,1 0,0.551 -0.449,1 -1,1 -0.551,0 -1,-0.449 -1,-1 0,-0.551 0.449,-1 1,-1 z m -8,0 c 0.551,0 1,0.449 1,1 0,0.551 -0.449,1 -1,1 -0.551,0 -1,-0.449 -1,-1 0,-0.551 0.449,-1 1,-1 z m 21.285329,-9.279045 -1.969941,-0.345448 0.690896,-3.939881 1.969941,0.345448 z m 1.72724,-9.849702 -1.969941,-0.345448 0.690896,-3.939881 1.96994,0.345448 z m 1.727239,-9.849703 -1.96994,-0.345448 0.863619,-4.9248514 c 0.09517,-0.5427186 0.614976,-0.9074172 1.157695,-0.8122463 0.542718,0.095171 0.907417,0.6149756 0.812246,1.1576942 z");
     			attr_dev(path0, "sodipodi:nodetypes", "cccccccsssccccccsssccccccsssccccccccccccccccccccccccccsssccccccccccccccccccccccsssccccccccccccccsssccccccssscccccccsssccsccccccccccsssccssssccssssssssssssssssccccccccccccsssc");
-    			add_location(path0, file, 146, 12, 20631);
+    			add_location(path0, file, 161, 14, 20970);
     			attr_dev(path1, "d", "M 51.059 34.291 L 49.594 32.926 L 45.042 29.059 L 45 32.62 L 45 47.817 L 53.865 36.906 L 51.059 34.291 Z M 47 42.184 L 47 33.38 L 47.067 33.304 L 51.134 37.094 L 47 42.184 Z");
-    			add_location(path1, file, 150, 12, 23792);
+    			add_location(path1, file, 165, 14, 24139);
     			attr_dev(g, "transform", "matrix(0, -1, -1, 0, 68, 68)");
-    			add_location(g, file, 145, 10, 20574);
-    			attr_dev(svg, "class", "play-icons computer-icon svelte-ysa9mg");
+    			add_location(g, file, 160, 12, 20911);
+    			attr_dev(svg, "class", "play-icons computer-icon svelte-1g38s3z");
     			attr_dev(svg, "id", "computerScissorsIcon");
-    			add_location(svg, file, 143, 8, 20432);
+    			add_location(svg, file, 158, 10, 20765);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, svg, anchor);
@@ -549,14 +549,14 @@ var app = (function () {
     		block,
     		id: create_else_block.name,
     		type: "else",
-    		source: "(143:6) {:else}",
+    		source: "(158:8) {:else}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (131:37) 
+    // (143:39) 
     function create_if_block_1(ctx) {
     	let svg;
     	let desc;
@@ -573,17 +573,17 @@ var app = (function () {
     			g = svg_element("g");
     			path0 = svg_element("path");
     			path1 = svg_element("path");
-    			add_location(desc, file, 132, 10, 16076);
+    			add_location(desc, file, 144, 12, 16346);
     			attr_dev(path0, "d", "M 37 103.69 L 37 101.69 M 37 101.69 L 33 101.69 L 33 99.308 L 37 97.308 L 37 93.506 C 38.161 93.092 39 91.992 39 90.69 C 39 89.036 37.654 87.69 36 87.69 C 34.346 87.69 33 89.036 33 90.69 C 33 91.992 33.839 93.092 35 93.506 L 35 96.072 L 31 98.072 L 31 101.69 L 29 101.69 L 29 93.506 C 30.161 93.092 31 91.992 31 90.69 C 31 89.036 29.654 87.69 28 87.69 C 26.346 87.69 25 89.036 25 90.69 C 25 91.992 25.839 93.092 27 93.506 L 27 101.69 L 25 101.69 L 25 98.072 L 21 96.072 L 21 93.506 C 22.161 93.092 23 91.992 23 90.69 C 23 89.036 21.654 87.69 20 87.69 C 18.346 87.69 17 89.036 17 90.69 C 17 91.992 17.839 93.092 19 93.506 L 19 97.308 L 23 99.308 L 23 101.69 L 15 101.69 L 15 85.69 L 41 85.69 L 41 101.69 L 39 101.69 M 39 101.69 L 39 103.69 M 39 103.69 L 40.382 103.69 L 43 103.639 L 43 83.69 L 41 83.69 L 41 81.69 L 43 81.69 L 43 73.69 L 41 73.69 L 41 71.69 L 43 71.69 L 43 63.69 L 41 63.69 L 41 61.69 L 43 61.69 L 43 54.69 C 43 53.036 41.654 51.69 40 51.69 L 40 51.69 C 38.346 51.69 37 53.036 37 54.69 L 37 61.69 L 39 61.69 L 39 63.69 L 37 63.69 L 37 71.69 L 39 71.69 L 39 73.69 L 37 73.69 L 37 81.69 L 39 81.69 L 39 83.69 L 33 83.69 L 33 81.69 L 35 81.69 L 35 73.69 L 33 73.69 L 33 71.69 L 35 71.69 L 35 63.69 L 33 63.69 L 33 61.69 L 35 61.69 L 35 54.69 C 35 53.036 33.654 51.69 32 51.69 C 30.346 51.69 29 53.036 29 54.69 L 29 61.69 L 31 61.69 L 31 63.69 L 29 63.69 L 29 71.69 L 31 71.69 L 31 73.69 L 29 73.69 L 29 81.69 L 31 81.69 L 31 83.69 L 25 83.69 L 25 81.69 L 27 81.69 L 27 73.69 L 25 73.69 L 25 71.69 L 27 71.69 L 27 63.69 L 25 63.69 L 25 61.69 L 27 61.69 L 27 54.69 C 27 53.036 25.654 51.69 24 51.69 C 22.346 51.69 21 53.036 21 54.69 L 21 61.69 L 23 61.69 L 23 63.69 L 21 63.69 L 21 71.69 L 23 71.69 L 23 73.69 L 21 73.69 L 21 81.69 L 23 81.69 L 23 83.69 L 17 83.69 L 17 81.69 L 19 81.69 L 19 73.69 L 17 73.69 L 17 71.69 L 19 71.69 L 19 63.69 L 17 63.69 L 17 61.69 L 19 61.69 L 19 54.69 C 19 53.036 17.654 51.69 16 51.69 C 14.346 51.69 13 53.036 13 54.69 L 13 61.69 L 15 61.69 L 15 63.69 L 13 63.69 L 13 71.69 L 15 71.69 L 15 73.69 L 13 73.69 L 13 81.69 L 15 81.69 L 15 83.69 L 13 83.69 L 13 103.697 L 15.516 103.69 L 37 103.69 M 31 54.69 C 31 54.139 31.449 53.69 32 53.69 C 32.551 53.69 33 54.139 33 54.69 L 33 59.69 L 31 59.69 L 31 54.69 Z M 31 65.69 L 33 65.69 L 33 69.69 L 31 69.69 L 31 65.69 Z M 31 75.69 L 33 75.69 L 33 79.69 L 31 79.69 L 31 75.69 Z M 23 54.69 C 23 54.139 23.449 53.69 24 53.69 C 24.551 53.69 25 54.139 25 54.69 L 25 59.69 L 23 59.69 L 23 54.69 Z M 23 65.69 L 25 65.69 L 25 69.69 L 23 69.69 L 23 65.69 Z M 23 75.69 L 25 75.69 L 25 79.69 L 23 79.69 L 23 75.69 Z M 15 54.69 C 15 54.139 15.449 53.69 16 53.69 C 16.551 53.69 17 54.139 17 54.69 L 17 59.69 L 15 59.69 L 15 54.69 Z M 15 65.69 L 17 65.69 L 17 69.69 L 15 69.69 L 15 65.69 Z M 15 75.69 L 17 75.69 L 17 79.69 L 15 79.69 L 15 75.69 Z M 36 89.69 C 36.551 89.69 37 90.139 37 90.69 C 37 91.241 36.551 91.69 36 91.69 C 35.449 91.69 35 91.241 35 90.69 C 35 90.139 35.449 89.69 36 89.69 Z M 28 89.69 C 28.551 89.69 29 90.139 29 90.69 C 29 91.241 28.551 91.69 28 91.69 C 27.449 91.69 27 91.241 27 90.69 C 27 90.139 27.449 89.69 28 89.69 Z M 20 89.69 C 20.551 89.69 21 90.139 21 90.69 C 21 91.241 20.551 91.69 20 91.69 C 19.449 91.69 19 91.241 19 90.69 C 19 90.139 19.449 89.69 20 89.69 Z M 41 79.69 L 39 79.69 L 39 75.69 L 41 75.69 L 41 79.69 Z M 41 69.69 L 39 69.69 L 39 65.69 L 41 65.69 L 41 69.69 Z M 41 59.69 L 39 59.69 L 39 54.69 C 39 54.139 39.449 53.69 40 53.69 C 40.551 53.69 41 54.139 41 54.69 L 41 59.69 Z");
-    			add_location(path0, file, 134, 12, 16226);
+    			add_location(path0, file, 149, 14, 16541);
     			attr_dev(path1, "d", "M 55.549 73.69 C 54.279 73.69 53.067 74.234 52.223 75.184 L 48.149 79.767 L 50.802 82.166 L 49.594 83.616 L 46.933 81.136 L 45 83.31 L 45 98.507 L 53.865 87.596 L 51.059 84.981 L 52.286 83.508 L 55.111 86.062 L 59.003 81.271 C 59.646 80.481 60 79.484 60 78.465 L 60 78.141 C 60 75.687 58.003 73.69 55.549 73.69 Z M 47 92.874 L 47 84.07 L 47.067 83.994 L 51.134 87.784 L 47 92.874 Z M 58 78.465 C 58 79.026 57.805 79.575 57.451 80.01 L 54.889 83.164 L 50.962 79.613 L 53.718 76.512 C 54.183 75.99 54.85 75.69 55.549 75.69 C 56.9 75.69 58 76.79 58 78.141 L 58 78.465 Z");
-    			add_location(path1, file, 137, 12, 19774);
+    			add_location(path1, file, 152, 14, 20095);
     			attr_dev(g, "transform", "matrix(0, -1, -1, 0, 119, 68)");
     			attr_dev(g, "bx:origin", "0.5 0.634665");
-    			add_location(g, file, 133, 10, 16143);
-    			attr_dev(svg, "class", "play-icons computer-icon svelte-ysa9mg");
+    			add_location(g, file, 145, 12, 16415);
+    			attr_dev(svg, "class", "play-icons computer-icon svelte-1g38s3z");
     			attr_dev(svg, "id", "computerPaperIcon");
-    			add_location(svg, file, 131, 8, 16004);
+    			add_location(svg, file, 143, 10, 16272);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, svg, anchor);
@@ -602,14 +602,14 @@ var app = (function () {
     		block,
     		id: create_if_block_1.name,
     		type: "if",
-    		source: "(131:37) ",
+    		source: "(143:39) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (119:6) {#if computer === 'rock' || animated}
+    // (131:8) {#if computer === 'rock' || animated}
     function create_if_block(ctx) {
     	let svg;
     	let desc;
@@ -626,16 +626,16 @@ var app = (function () {
     			g = svg_element("g");
     			path0 = svg_element("path");
     			path1 = svg_element("path");
-    			add_location(desc, file, 120, 10, 12958);
+    			add_location(desc, file, 132, 12, 13204);
     			attr_dev(path0, "d", "M 37 53 L 37 51 M 37 51 L 33 51 L 33 48.618 L 37 46.618 L 37 42.816 C 38.161 42.402 39 41.302 39 40 C 39 38.346 37.654 37 36 37 C 34.346 37 33 38.346 33 40 C 33 41.302 33.839 42.402 35 42.816 L 35 45.382 L 31 47.382 L 31 51 L 29 51 L 29 42.816 C 30.161 42.402 31 41.302 31 40 C 31 38.346 29.654 37 28 37 C 26.346 37 25 38.346 25 40 C 25 41.302 25.839 42.402 27 42.816 L 27 51 L 25 51 L 25 47.382 L 21 45.382 L 21 42.816 C 22.161 42.402 23 41.302 23 40 C 23 38.346 21.654 37 20 37 C 18.346 37 17 38.346 17 40 C 17 41.302 17.839 42.402 19 42.816 L 19 46.618 L 23 48.618 L 23 51 L 15 51 L 15 35 L 41 35 L 41 51 L 39 51 M 39 51 L 38.743 53 M 38.743 53 L 40.382 53 L 43 53.005 L 43 33 L 41 33 L 41 31 L 43 31 L 43 23 L 41 23 L 41 21.103 L 43 21.103 L 43 17.831 C 43 16.177 41.654 14.831 40 14.831 C 38.346 14.831 37 16.177 37 17.831 L 37 21.103 L 39 21.103 L 39 23 L 37 23 L 37 31 L 39 31 L 39 33 L 33 33 L 33 31 L 35 31 L 35 23 L 33 23 L 33 21.103 L 35 21.103 L 35 17.831 C 35 16.177 33.654 14.831 32 14.831 C 30.346 14.831 29 16.177 29 17.831 L 29 21.103 L 31 21.103 L 31 23 L 29 23 L 29 31 L 31 31 L 31 33 L 25 33 L 25 31 L 27 31 L 27 23 L 25 23 L 25 21.103 L 27 21.103 L 27 17.831 C 27 16.177 25.654 14.831 24 14.831 C 22.346 14.831 21 16.177 21 17.831 L 21 21.103 L 23 21.103 L 23 23 L 21 23 L 21 31 L 23 31 L 23 33 L 17 33 L 17 31 L 19 31 L 19 23 L 17 23 L 17 21.103 L 19 21.103 L 19 17.831 C 19 16.177 17.654 14.831 16 14.831 C 14.346 14.831 13 16.177 13 17.831 L 13 21.103 L 15 21.103 L 15 23 L 13 23 L 13 31 L 15 31 L 15 33 L 13 33 L 13 52.974 L 15.516 53 L 37 53 M 31 17.831 C 31 17.28 31.449 16.831 32 16.831 C 32.551 16.831 33 17.28 33 17.831 L 33 19.103 L 31 19.103 L 31 17.831 Z M 31 25 L 33 25 L 33 29 L 31 29 L 31 25 Z M 23 17.831 C 23 17.28 23.449 16.831 24 16.831 C 24.551 16.831 25 17.28 25 17.831 L 25 19.103 L 23 19.103 L 23 17.831 Z M 23 25 L 25 25 L 25 29 L 23 29 L 23 25 Z M 15 17.831 C 15 17.28 15.449 16.831 16 16.831 C 16.551 16.831 17 17.28 17 17.831 L 17 19.103 L 15 19.103 L 15 17.831 Z M 15 25 L 17 25 L 17 29 L 15 29 L 15 25 Z M 36 39 C 36.551 39 37 39.449 37 40 C 37 40.551 36.551 41 36 41 C 35.449 41 35 40.551 35 40 C 35 39.449 35.449 39 36 39 Z M 28 39 C 28.551 39 29 39.449 29 40 C 29 40.551 28.551 41 28 41 C 27.449 41 27 40.551 27 40 C 27 39.449 27.449 39 28 39 Z M 20 39 C 20.551 39 21 39.449 21 40 C 21 40.551 20.551 41 20 41 C 19.449 41 19 40.551 19 40 C 19 39.449 19.449 39 20 39 Z M 41 29 L 39 29 L 39 25 L 41 25 L 41 29 Z M 41 19.103 L 39 19.103 L 39 17.831 C 39 17.28 39.449 16.831 40 16.831 C 40.551 16.831 41 17.28 41 17.831 L 41 19.103 Z");
-    			add_location(path0, file, 122, 12, 13082);
+    			add_location(path0, file, 134, 14, 13332);
     			attr_dev(path1, "d", "M 51.059 34.291 L 49.594 32.926 L 45.096 29.221 L 45 32.62 L 45 47.817 L 53.865 36.906 L 51.059 34.291 Z M 47 42.184 L 47 33.38 L 47.067 33.304 L 51.134 37.094 L 47 42.184 Z");
-    			add_location(path1, file, 125, 12, 15715);
+    			add_location(path1, file, 137, 14, 15971);
     			attr_dev(g, "transform", "matrix(0, -1, -1, 0, 68, 68)");
-    			add_location(g, file, 121, 10, 13025);
-    			attr_dev(svg, "class", "play-icons computer-icon svelte-ysa9mg");
+    			add_location(g, file, 133, 12, 13273);
+    			attr_dev(svg, "class", "play-icons computer-icon svelte-1g38s3z");
     			attr_dev(svg, "id", "computerRockIcon");
-    			add_location(svg, file, 119, 8, 12887);
+    			add_location(svg, file, 131, 10, 13131);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, svg, anchor);
@@ -654,7 +654,7 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(119:6) {#if computer === 'rock' || animated}",
+    		source: "(131:8) {#if computer === 'rock' || animated}",
     		ctx
     	});
 
@@ -663,30 +663,32 @@ var app = (function () {
 
     function create_fragment(ctx) {
     	let main;
+    	let div0;
     	let h1;
     	let t1;
     	let h2;
     	let t3;
-    	let div3;
-    	let div0;
-    	let div0_class_value;
-    	let t4;
+    	let div11;
+    	let div4;
     	let div1;
+    	let div1_class_value;
+    	let t4;
+    	let div2;
     	let p0;
     	let t6;
-    	let div2;
-    	let div2_class_value;
+    	let div3;
+    	let div3_class_value;
     	let t7;
-    	let div8;
-    	let div4;
+    	let div9;
+    	let div5;
     	let span0;
     	let t8;
     	let span1;
     	let t9;
     	let span2;
     	let t10;
+    	let div7;
     	let div6;
-    	let div5;
     	let p1;
     	let t11;
     	let t12;
@@ -695,14 +697,14 @@ var app = (function () {
     	let t14;
     	let t15;
     	let t16;
-    	let div7;
+    	let div8;
     	let span3;
     	let t17;
     	let span4;
     	let t18;
     	let span5;
     	let t19;
-    	let div9;
+    	let div10;
     	let button0;
     	let svg0;
     	let desc0;
@@ -750,33 +752,35 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			main = element("main");
+    			div0 = element("div");
     			h1 = element("h1");
     			h1.textContent = "Rock, Paper, Scissors";
     			t1 = space();
     			h2 = element("h2");
     			h2.textContent = "Svelte Edition";
     			t3 = space();
-    			div3 = element("div");
-    			div0 = element("div");
+    			div11 = element("div");
+    			div4 = element("div");
+    			div1 = element("div");
     			if_block0.c();
     			t4 = space();
-    			div1 = element("div");
+    			div2 = element("div");
     			p0 = element("p");
     			p0.textContent = "vs";
     			t6 = space();
-    			div2 = element("div");
+    			div3 = element("div");
     			if_block1.c();
     			t7 = space();
-    			div8 = element("div");
-    			div4 = element("div");
+    			div9 = element("div");
+    			div5 = element("div");
     			span0 = element("span");
     			t8 = space();
     			span1 = element("span");
     			t9 = space();
     			span2 = element("span");
     			t10 = space();
+    			div7 = element("div");
     			div6 = element("div");
-    			div5 = element("div");
     			p1 = element("p");
     			t11 = text(/*result*/ ctx[5]);
     			t12 = space();
@@ -785,14 +789,14 @@ var app = (function () {
     			t14 = text(" - ");
     			t15 = text(/*computerScore*/ ctx[1]);
     			t16 = space();
-    			div7 = element("div");
+    			div8 = element("div");
     			span3 = element("span");
     			t17 = space();
     			span4 = element("span");
     			t18 = space();
     			span5 = element("span");
     			t19 = space();
-    			div9 = element("div");
+    			div10 = element("div");
     			button0 = element("button");
     			svg0 = svg_element("svg");
     			desc0 = svg_element("desc");
@@ -816,164 +820,170 @@ var app = (function () {
     			g2 = svg_element("g");
     			path4 = svg_element("path");
     			path5 = svg_element("path");
-    			attr_dev(h1, "class", "svelte-ysa9mg");
-    			add_location(h1, file, 61, 2, 1204);
-    			attr_dev(h2, "class", "svelte-ysa9mg");
-    			add_location(h2, file, 62, 2, 1237);
-    			attr_dev(div0, "class", div0_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-ysa9mg");
-    			attr_dev(div0, "id", "playerIconContainer");
-    			add_location(div0, file, 65, 4, 1305);
+    			attr_dev(h1, "class", "svelte-1g38s3z");
+    			add_location(h1, file, 68, 4, 1257);
+    			attr_dev(h2, "class", "svelte-1g38s3z");
+    			add_location(h2, file, 69, 4, 1292);
+    			attr_dev(div0, "class", "header svelte-1g38s3z");
+    			add_location(div0, file, 67, 2, 1232);
+    			attr_dev(div1, "class", div1_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-1g38s3z");
+    			attr_dev(div1, "id", "playerIconContainer");
+    			add_location(div1, file, 74, 6, 1404);
     			attr_dev(p0, "id", "vs");
-    			add_location(p0, file, 111, 6, 12695);
-    			attr_dev(div1, "class", "screen-text svelte-ysa9mg");
-    			add_location(div1, file, 110, 4, 12663);
-    			attr_dev(div2, "class", div2_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-ysa9mg");
-    			attr_dev(div2, "id", "computerIconContainer");
-    			add_location(div2, file, 114, 4, 12729);
-    			attr_dev(div3, "class", "screen svelte-ysa9mg");
-    			attr_dev(div3, "id", "gameScreen");
-    			add_location(div3, file, 64, 2, 1264);
+    			add_location(p0, file, 123, 8, 12925);
+    			attr_dev(div2, "class", "screen-text svelte-1g38s3z");
+    			add_location(div2, file, 122, 6, 12891);
+    			attr_dev(div3, "class", div3_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-1g38s3z");
+    			attr_dev(div3, "id", "computerIconContainer");
+    			add_location(div3, file, 126, 6, 12963);
+    			attr_dev(div4, "class", "screen svelte-1g38s3z");
+    			attr_dev(div4, "id", "gameScreen");
+    			add_location(div4, file, 73, 4, 1361);
     			attr_dev(span0, "class", "circle");
-    			add_location(span0, file, 162, 6, 24206);
+    			add_location(span0, file, 177, 8, 24575);
     			attr_dev(span1, "class", "circle");
-    			add_location(span1, file, 163, 6, 24236);
+    			add_location(span1, file, 178, 8, 24607);
     			attr_dev(span2, "class", "circle");
-    			add_location(span2, file, 164, 6, 24266);
-    			attr_dev(div4, "class", "player-score-container");
-    			add_location(div4, file, 161, 4, 24163);
+    			add_location(span2, file, 179, 8, 24639);
+    			attr_dev(div5, "class", "player-score-container");
+    			add_location(div5, file, 176, 6, 24530);
     			attr_dev(p1, "id", "result");
-    			add_location(p1, file, 169, 8, 24398);
+    			add_location(p1, file, 184, 10, 24779);
     			attr_dev(p2, "id", "score");
-    			add_location(p2, file, 170, 8, 24434);
-    			attr_dev(div5, "class", "screen-text svelte-ysa9mg");
-    			attr_dev(div5, "id", "results");
-    			add_location(div5, file, 168, 6, 24351);
-    			attr_dev(div6, "class", "screen svelte-ysa9mg");
-    			attr_dev(div6, "id", "resultScreen");
-    			add_location(div6, file, 167, 4, 24306);
+    			add_location(p2, file, 185, 10, 24817);
+    			attr_dev(div6, "class", "screen-text svelte-1g38s3z");
+    			attr_dev(div6, "id", "results");
+    			add_location(div6, file, 183, 8, 24730);
+    			attr_dev(div7, "class", "screen svelte-1g38s3z");
+    			attr_dev(div7, "id", "resultScreen");
+    			add_location(div7, file, 182, 6, 24683);
     			attr_dev(span3, "class", "circle");
-    			add_location(span3, file, 176, 6, 24603);
+    			add_location(span3, file, 191, 8, 24996);
     			attr_dev(span4, "class", "circle");
-    			add_location(span4, file, 177, 6, 24633);
+    			add_location(span4, file, 192, 8, 25028);
     			attr_dev(span5, "class", "circle");
-    			add_location(span5, file, 178, 6, 24663);
-    			attr_dev(div7, "class", "computer-score-container");
-    			add_location(div7, file, 175, 4, 24558);
-    			attr_dev(div8, "class", "result-container");
-    			attr_dev(div8, "id", "result-container");
-    			add_location(div8, file, 159, 2, 24070);
-    			add_location(desc0, file, 193, 8, 25003);
+    			add_location(span5, file, 193, 8, 25060);
+    			attr_dev(div8, "class", "computer-score-container");
+    			add_location(div8, file, 190, 6, 24949);
+    			attr_dev(div9, "class", "result-container");
+    			attr_dev(div9, "id", "result-container");
+    			add_location(div9, file, 174, 4, 24433);
+    			add_location(desc0, file, 208, 10, 25428);
     			attr_dev(path0, "d", "M 37 53 L 37 51 M 37 51 L 33 51 L 33 48.618 L 37 46.618 L 37 42.816 C 38.161 42.402 39 41.302 39 40 C 39 38.346 37.654 37 36 37 C 34.346 37 33 38.346 33 40 C 33 41.302 33.839 42.402 35 42.816 L 35 45.382 L 31 47.382 L 31 51 L 29 51 L 29 42.816 C 30.161 42.402 31 41.302 31 40 C 31 38.346 29.654 37 28 37 C 26.346 37 25 38.346 25 40 C 25 41.302 25.839 42.402 27 42.816 L 27 51 L 25 51 L 25 47.382 L 21 45.382 L 21 42.816 C 22.161 42.402 23 41.302 23 40 C 23 38.346 21.654 37 20 37 C 18.346 37 17 38.346 17 40 C 17 41.302 17.839 42.402 19 42.816 L 19 46.618 L 23 48.618 L 23 51 L 15 51 L 15 35 L 41 35 L 41 51 L 39 51 M 39 51 L 38.743 53 M 38.743 53 L 40.382 53 L 43 53.005 L 43 33 L 41 33 L 41 31 L 43 31 L 43 23 L 41 23 L 41 21.103 L 43 21.103 L 43 17.831 C 43 16.177 41.654 14.831 40 14.831 C 38.346 14.831 37 16.177 37 17.831 L 37 21.103 L 39 21.103 L 39 23 L 37 23 L 37 31 L 39 31 L 39 33 L 33 33 L 33 31 L 35 31 L 35 23 L 33 23 L 33 21.103 L 35 21.103 L 35 17.831 C 35 16.177 33.654 14.831 32 14.831 C 30.346 14.831 29 16.177 29 17.831 L 29 21.103 L 31 21.103 L 31 23 L 29 23 L 29 31 L 31 31 L 31 33 L 25 33 L 25 31 L 27 31 L 27 23 L 25 23 L 25 21.103 L 27 21.103 L 27 17.831 C 27 16.177 25.654 14.831 24 14.831 C 22.346 14.831 21 16.177 21 17.831 L 21 21.103 L 23 21.103 L 23 23 L 21 23 L 21 31 L 23 31 L 23 33 L 17 33 L 17 31 L 19 31 L 19 23 L 17 23 L 17 21.103 L 19 21.103 L 19 17.831 C 19 16.177 17.654 14.831 16 14.831 C 14.346 14.831 13 16.177 13 17.831 L 13 21.103 L 15 21.103 L 15 23 L 13 23 L 13 31 L 15 31 L 15 33 L 13 33 L 13 52.974 L 15.516 53 L 37 53 M 31 17.831 C 31 17.28 31.449 16.831 32 16.831 C 32.551 16.831 33 17.28 33 17.831 L 33 19.103 L 31 19.103 L 31 17.831 Z M 31 25 L 33 25 L 33 29 L 31 29 L 31 25 Z M 23 17.831 C 23 17.28 23.449 16.831 24 16.831 C 24.551 16.831 25 17.28 25 17.831 L 25 19.103 L 23 19.103 L 23 17.831 Z M 23 25 L 25 25 L 25 29 L 23 29 L 23 25 Z M 15 17.831 C 15 17.28 15.449 16.831 16 16.831 C 16.551 16.831 17 17.28 17 17.831 L 17 19.103 L 15 19.103 L 15 17.831 Z M 15 25 L 17 25 L 17 29 L 15 29 L 15 25 Z M 36 39 C 36.551 39 37 39.449 37 40 C 37 40.551 36.551 41 36 41 C 35.449 41 35 40.551 35 40 C 35 39.449 35.449 39 36 39 Z M 28 39 C 28.551 39 29 39.449 29 40 C 29 40.551 28.551 41 28 41 C 27.449 41 27 40.551 27 40 C 27 39.449 27.449 39 28 39 Z M 20 39 C 20.551 39 21 39.449 21 40 C 21 40.551 20.551 41 20 41 C 19.449 41 19 40.551 19 40 C 19 39.449 19.449 39 20 39 Z M 41 29 L 39 29 L 39 25 L 41 25 L 41 29 Z M 41 19.103 L 39 19.103 L 39 17.831 C 39 17.28 39.449 16.831 40 16.831 C 40.551 16.831 41 17.28 41 17.831 L 41 19.103 Z");
-    			add_location(path0, file, 195, 10, 25123);
+    			add_location(path0, file, 210, 12, 25552);
     			attr_dev(path1, "d", "M 51.059 34.291 L 49.594 32.926 L 45.096 29.221 L 45 32.62 L 45 47.817 L 53.865 36.906 L 51.059 34.291 Z M 47 42.184 L 47 33.38 L 47.067 33.304 L 51.134 37.094 L 47 42.184 Z");
-    			add_location(path1, file, 198, 10, 27750);
+    			add_location(path1, file, 213, 12, 28185);
     			attr_dev(g0, "transform", "matrix(0, -1, -1, 0, 68, 68)");
-    			add_location(g0, file, 194, 8, 25068);
-    			attr_dev(svg0, "class", "action-icons svelte-ysa9mg");
+    			add_location(g0, file, 209, 10, 25495);
+    			attr_dev(svg0, "class", "action-icons svelte-1g38s3z");
     			attr_dev(svg0, "id", "rockIcon");
-    			add_location(svg0, file, 192, 6, 24954);
-    			attr_dev(button0, "class", "action-buttons svelte-ysa9mg");
+    			add_location(svg0, file, 207, 8, 25377);
+    			attr_dev(button0, "class", "action-buttons svelte-1g38s3z");
     			attr_dev(button0, "id", "rockButton");
     			button0.disabled = /*animated*/ ctx[2];
-    			add_location(button0, file, 183, 4, 24768);
-    			add_location(desc1, file, 215, 8, 28242);
+    			add_location(button0, file, 198, 6, 25173);
+    			add_location(desc1, file, 230, 10, 28709);
     			attr_dev(path2, "d", "M 37 103.69 L 37 101.69 M 37 101.69 L 33 101.69 L 33 99.308 L 37 97.308 L 37 93.506 C 38.161 93.092 39 91.992 39 90.69 C 39 89.036 37.654 87.69 36 87.69 C 34.346 87.69 33 89.036 33 90.69 C 33 91.992 33.839 93.092 35 93.506 L 35 96.072 L 31 98.072 L 31 101.69 L 29 101.69 L 29 93.506 C 30.161 93.092 31 91.992 31 90.69 C 31 89.036 29.654 87.69 28 87.69 C 26.346 87.69 25 89.036 25 90.69 C 25 91.992 25.839 93.092 27 93.506 L 27 101.69 L 25 101.69 L 25 98.072 L 21 96.072 L 21 93.506 C 22.161 93.092 23 91.992 23 90.69 C 23 89.036 21.654 87.69 20 87.69 C 18.346 87.69 17 89.036 17 90.69 C 17 91.992 17.839 93.092 19 93.506 L 19 97.308 L 23 99.308 L 23 101.69 L 15 101.69 L 15 85.69 L 41 85.69 L 41 101.69 L 39 101.69 M 39 101.69 L 39 103.69 M 39 103.69 L 40.382 103.69 L 43 103.639 L 43 83.69 L 41 83.69 L 41 81.69 L 43 81.69 L 43 73.69 L 41 73.69 L 41 71.69 L 43 71.69 L 43 63.69 L 41 63.69 L 41 61.69 L 43 61.69 L 43 54.69 C 43 53.036 41.654 51.69 40 51.69 L 40 51.69 C 38.346 51.69 37 53.036 37 54.69 L 37 61.69 L 39 61.69 L 39 63.69 L 37 63.69 L 37 71.69 L 39 71.69 L 39 73.69 L 37 73.69 L 37 81.69 L 39 81.69 L 39 83.69 L 33 83.69 L 33 81.69 L 35 81.69 L 35 73.69 L 33 73.69 L 33 71.69 L 35 71.69 L 35 63.69 L 33 63.69 L 33 61.69 L 35 61.69 L 35 54.69 C 35 53.036 33.654 51.69 32 51.69 C 30.346 51.69 29 53.036 29 54.69 L 29 61.69 L 31 61.69 L 31 63.69 L 29 63.69 L 29 71.69 L 31 71.69 L 31 73.69 L 29 73.69 L 29 81.69 L 31 81.69 L 31 83.69 L 25 83.69 L 25 81.69 L 27 81.69 L 27 73.69 L 25 73.69 L 25 71.69 L 27 71.69 L 27 63.69 L 25 63.69 L 25 61.69 L 27 61.69 L 27 54.69 C 27 53.036 25.654 51.69 24 51.69 C 22.346 51.69 21 53.036 21 54.69 L 21 61.69 L 23 61.69 L 23 63.69 L 21 63.69 L 21 71.69 L 23 71.69 L 23 73.69 L 21 73.69 L 21 81.69 L 23 81.69 L 23 83.69 L 17 83.69 L 17 81.69 L 19 81.69 L 19 73.69 L 17 73.69 L 17 71.69 L 19 71.69 L 19 63.69 L 17 63.69 L 17 61.69 L 19 61.69 L 19 54.69 C 19 53.036 17.654 51.69 16 51.69 C 14.346 51.69 13 53.036 13 54.69 L 13 61.69 L 15 61.69 L 15 63.69 L 13 63.69 L 13 71.69 L 15 71.69 L 15 73.69 L 13 73.69 L 13 81.69 L 15 81.69 L 15 83.69 L 13 83.69 L 13 103.697 L 15.516 103.69 L 37 103.69 M 31 54.69 C 31 54.139 31.449 53.69 32 53.69 C 32.551 53.69 33 54.139 33 54.69 L 33 59.69 L 31 59.69 L 31 54.69 Z M 31 65.69 L 33 65.69 L 33 69.69 L 31 69.69 L 31 65.69 Z M 31 75.69 L 33 75.69 L 33 79.69 L 31 79.69 L 31 75.69 Z M 23 54.69 C 23 54.139 23.449 53.69 24 53.69 C 24.551 53.69 25 54.139 25 54.69 L 25 59.69 L 23 59.69 L 23 54.69 Z M 23 65.69 L 25 65.69 L 25 69.69 L 23 69.69 L 23 65.69 Z M 23 75.69 L 25 75.69 L 25 79.69 L 23 79.69 L 23 75.69 Z M 15 54.69 C 15 54.139 15.449 53.69 16 53.69 C 16.551 53.69 17 54.139 17 54.69 L 17 59.69 L 15 59.69 L 15 54.69 Z M 15 65.69 L 17 65.69 L 17 69.69 L 15 69.69 L 15 65.69 Z M 15 75.69 L 17 75.69 L 17 79.69 L 15 79.69 L 15 75.69 Z M 36 89.69 C 36.551 89.69 37 90.139 37 90.69 C 37 91.241 36.551 91.69 36 91.69 C 35.449 91.69 35 91.241 35 90.69 C 35 90.139 35.449 89.69 36 89.69 Z M 28 89.69 C 28.551 89.69 29 90.139 29 90.69 C 29 91.241 28.551 91.69 28 91.69 C 27.449 91.69 27 91.241 27 90.69 C 27 90.139 27.449 89.69 28 89.69 Z M 20 89.69 C 20.551 89.69 21 90.139 21 90.69 C 21 91.241 20.551 91.69 20 91.69 C 19.449 91.69 19 91.241 19 90.69 C 19 90.139 19.449 89.69 20 89.69 Z M 41 79.69 L 39 79.69 L 39 75.69 L 41 75.69 L 41 79.69 Z M 41 69.69 L 39 69.69 L 39 65.69 L 41 65.69 L 41 69.69 Z M 41 59.69 L 39 59.69 L 39 54.69 C 39 54.139 39.449 53.69 40 53.69 C 40.551 53.69 41 54.139 41 54.69 L 41 59.69 Z");
-    			add_location(path2, file, 217, 10, 28388);
+    			add_location(path2, file, 232, 12, 28859);
     			attr_dev(path3, "d", "M 55.549 73.69 C 54.279 73.69 53.067 74.234 52.223 75.184 L 48.149 79.767 L 50.802 82.166 L 49.594 83.616 L 46.933 81.136 L 45 83.31 L 45 98.507 L 53.865 87.596 L 51.059 84.981 L 52.286 83.508 L 55.111 86.062 L 59.003 81.271 C 59.646 80.481 60 79.484 60 78.465 L 60 78.141 C 60 75.687 58.003 73.69 55.549 73.69 Z M 47 92.874 L 47 84.07 L 47.067 83.994 L 51.134 87.784 L 47 92.874 Z M 58 78.465 C 58 79.026 57.805 79.575 57.451 80.01 L 54.889 83.164 L 50.962 79.613 L 53.718 76.512 C 54.183 75.99 54.85 75.69 55.549 75.69 C 56.9 75.69 58 76.79 58 78.141 L 58 78.465 Z");
-    			add_location(path3, file, 220, 10, 31930);
+    			add_location(path3, file, 235, 12, 32407);
     			attr_dev(g1, "transform", "matrix(0, -1, -1, 0, 114, 68)");
     			attr_dev(g1, "bx:origin", "0.5 0.634665");
-    			add_location(g1, file, 216, 8, 28307);
-    			attr_dev(svg1, "class", "action-icons svelte-ysa9mg");
+    			add_location(g1, file, 231, 10, 28776);
+    			attr_dev(svg1, "class", "action-icons svelte-1g38s3z");
     			attr_dev(svg1, "id", "paperIcon");
-    			add_location(svg1, file, 214, 6, 28192);
-    			attr_dev(button1, "class", "action-buttons svelte-ysa9mg");
+    			add_location(svg1, file, 229, 8, 28657);
+    			attr_dev(button1, "class", "action-buttons svelte-1g38s3z");
     			attr_dev(button1, "id", "paperButton");
     			button1.disabled = /*animated*/ ctx[2];
-    			add_location(button1, file, 205, 4, 28004);
-    			add_location(desc2, file, 237, 8, 32824);
+    			add_location(button1, file, 220, 6, 28451);
+    			add_location(desc2, file, 252, 10, 33333);
     			attr_dev(path4, "d", "m 37,53 v -2 m 0,0 h -4 v -2.382 l 4,-2 v -3.802 c 1.161,-0.414 2,-1.514 2,-2.816 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 0,1.302 0.839,2.402 2,2.816 v 2.566 l -4,2 V 51 h -2 v -8.184 c 1.161,-0.414 2,-1.514 2,-2.816 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 0,1.302 0.839,2.402 2,2.816 V 51 h -2 v -3.618 l -4,-2 v -2.566 c 1.161,-0.414 2,-1.514 2,-2.816 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 0,1.302 0.839,2.402 2,2.816 v 3.802 l 4,2 V 51 H 15 V 35 h 26 v 16 h -2 m 0,0 -0.257,2 m 0,0 h 1.639 L 43,53.005 V 33 h -2 l -0.06012,-1.309104 1.969941,0.345448 1.381791,-7.879762 -1.96994,-0.345448 0.345448,-1.969941 1.96994,0.345448 1.381792,-7.879762 -1.969941,-0.345448 0.345448,-1.969941 1.969941,0.345448 1.209068,-6.8947916 C 47.859054,3.8130056 46.76577,2.2547492 45.13663,1.9690638 43.507489,1.6833783 41.949232,2.7766619 41.663547,4.4058027 l -1.209068,6.8947923 1.969941,0.345448 -0.345448,1.96994 -1.969941,-0.345448 -1.381791,7.879762 1.96994,0.345448 -0.345448,1.969941 -1.96994,-0.345448 L 37,31 38.969941,31.345448 39,33 h -6 l -0.01015,-2.284704 1.994928,-0.142351 -0.569408,-7.979711 -1.994927,0.142352 -0.142352,-1.994927 1.994928,-0.142352 -0.569408,-7.97971 -1.994927,0.142351 -0.142352,-1.994927 1.994928,-0.142352 -0.498232,-6.9822465 C 32.945308,1.9916174 31.506919,0.74483396 29.857114,0.86255891 28.207309,0.98028386 26.960526,2.4186729 27.07825,4.068478 l 0.498232,6.982246 1.994927,-0.142351 0.142352,1.994927 -1.994927,0.142352 0.569407,7.97971 1.994927,-0.142352 0.142352,1.994928 L 28.430593,23.02029 29,31 30.994928,30.857648 31,33 h -6 v -1.827 h 2 v -7 c 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 v 7 h 2 V 33 h -6 v -1.827 h 2 v -7 c 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 v 7 h 2 V 33 H 13 V 52.974 L 15.516,53 H 37 M 29.073178,3.9261262 c -0.03922,-0.5496026 0.376685,-1.0294218 0.926288,-1.0686397 0.549602,-0.039218 1.029422,0.3766853 1.06864,0.9262878 l 0.355879,4.9873189 -1.994927,0.1423518 z m 0.782935,10.9721018 1.994928,-0.142352 0.284703,3.989855 -1.994927,0.142352 z m 0.711759,9.974638 1.994928,-0.142352 0.284703,3.989855 -1.994927,0.142352 z M 23,24.173 c 0,-0.551 0.449,-1 1,-1 0.551,0 1,0.449 1,1 v 5 h -2 z m -8,0 c 0,-0.551 0.449,-1 1,-1 0.551,0 1,0.449 1,1 v 5 H 15 Z M 36,39 c 0.551,0 1,0.449 1,1 0,0.551 -0.449,1 -1,1 -0.551,0 -1,-0.449 -1,-1 0,-0.551 0.449,-1 1,-1 z m -8,0 c 0.551,0 1,0.449 1,1 0,0.551 -0.449,1 -1,1 -0.551,0 -1,-0.449 -1,-1 0,-0.551 0.449,-1 1,-1 z m -8,0 c 0.551,0 1,0.449 1,1 0,0.551 -0.449,1 -1,1 -0.551,0 -1,-0.449 -1,-1 0,-0.551 0.449,-1 1,-1 z m 21.285329,-9.279045 -1.969941,-0.345448 0.690896,-3.939881 1.969941,0.345448 z m 1.72724,-9.849702 -1.969941,-0.345448 0.690896,-3.939881 1.96994,0.345448 z m 1.727239,-9.849703 -1.96994,-0.345448 0.863619,-4.9248514 c 0.09517,-0.5427186 0.614976,-0.9074172 1.157695,-0.8122463 0.542718,0.095171 0.907417,0.6149756 0.812246,1.1576942 z");
     			attr_dev(path4, "sodipodi:nodetypes", "cccccccsssccccccsssccccccsssccccccccccccccccccccccccccsssccccccccccccccccccccccsssccccccccccccccsssccccccssscccccccsssccsccccccccccsssccssssccssssssssssssssssccccccccccccsssc");
-    			add_location(path4, file, 239, 10, 32944);
+    			add_location(path4, file, 254, 12, 33457);
     			attr_dev(path5, "d", "M 51.059 34.291 L 49.594 32.926 L 45.042 29.059 L 45 32.62 L 45 47.817 L 53.865 36.906 L 51.059 34.291 Z M 47 42.184 L 47 33.38 L 47.067 33.304 L 51.134 37.094 L 47 42.184 Z");
-    			add_location(path5, file, 243, 10, 36097);
+    			add_location(path5, file, 258, 12, 36618);
     			attr_dev(g2, "transform", "matrix(0, -1, -1, 0, 65, 68)");
-    			add_location(g2, file, 238, 8, 32889);
-    			attr_dev(svg2, "class", "action-icons svelte-ysa9mg");
+    			add_location(g2, file, 253, 10, 33400);
+    			attr_dev(svg2, "class", "action-icons svelte-1g38s3z");
     			attr_dev(svg2, "id", "scissorsIcon");
-    			add_location(svg2, file, 236, 6, 32771);
-    			attr_dev(button2, "class", "action-buttons svelte-ysa9mg");
+    			add_location(svg2, file, 251, 8, 33278);
+    			attr_dev(button2, "class", "action-buttons svelte-1g38s3z");
     			attr_dev(button2, "id", "scissorsButton");
     			button2.disabled = /*animated*/ ctx[2];
-    			add_location(button2, file, 227, 4, 32577);
-    			attr_dev(div9, "class", "buttons-container svelte-ysa9mg");
-    			attr_dev(div9, "id", "buttonsContainer");
-    			add_location(div9, file, 182, 2, 24710);
-    			attr_dev(main, "class", "svelte-ysa9mg");
-    			add_location(main, file, 60, 0, 1195);
+    			add_location(button2, file, 242, 6, 33066);
+    			attr_dev(div10, "class", "buttons-container svelte-1g38s3z");
+    			attr_dev(div10, "id", "buttonsContainer");
+    			add_location(div10, file, 197, 4, 25113);
+    			attr_dev(div11, "class", "game-container svelte-1g38s3z");
+    			add_location(div11, file, 72, 2, 1328);
+    			attr_dev(main, "class", "svelte-1g38s3z");
+    			add_location(main, file, 66, 0, 1223);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, main, anchor);
-    			append_dev(main, h1);
-    			append_dev(main, t1);
-    			append_dev(main, h2);
+    			append_dev(main, div0);
+    			append_dev(div0, h1);
+    			append_dev(div0, t1);
+    			append_dev(div0, h2);
     			append_dev(main, t3);
-    			append_dev(main, div3);
-    			append_dev(div3, div0);
-    			if_block0.m(div0, null);
-    			append_dev(div3, t4);
-    			append_dev(div3, div1);
-    			append_dev(div1, p0);
-    			append_dev(div3, t6);
-    			append_dev(div3, div2);
-    			if_block1.m(div2, null);
-    			append_dev(main, t7);
-    			append_dev(main, div8);
-    			append_dev(div8, div4);
-    			append_dev(div4, span0);
-    			append_dev(div4, t8);
-    			append_dev(div4, span1);
-    			append_dev(div4, t9);
-    			append_dev(div4, span2);
-    			append_dev(div8, t10);
-    			append_dev(div8, div6);
-    			append_dev(div6, div5);
-    			append_dev(div5, p1);
+    			append_dev(main, div11);
+    			append_dev(div11, div4);
+    			append_dev(div4, div1);
+    			if_block0.m(div1, null);
+    			append_dev(div4, t4);
+    			append_dev(div4, div2);
+    			append_dev(div2, p0);
+    			append_dev(div4, t6);
+    			append_dev(div4, div3);
+    			if_block1.m(div3, null);
+    			append_dev(div11, t7);
+    			append_dev(div11, div9);
+    			append_dev(div9, div5);
+    			append_dev(div5, span0);
+    			append_dev(div5, t8);
+    			append_dev(div5, span1);
+    			append_dev(div5, t9);
+    			append_dev(div5, span2);
+    			append_dev(div9, t10);
+    			append_dev(div9, div7);
+    			append_dev(div7, div6);
+    			append_dev(div6, p1);
     			append_dev(p1, t11);
-    			append_dev(div5, t12);
-    			append_dev(div5, p2);
+    			append_dev(div6, t12);
+    			append_dev(div6, p2);
     			append_dev(p2, t13);
     			append_dev(p2, t14);
     			append_dev(p2, t15);
-    			append_dev(div8, t16);
-    			append_dev(div8, div7);
-    			append_dev(div7, span3);
-    			append_dev(div7, t17);
-    			append_dev(div7, span4);
-    			append_dev(div7, t18);
-    			append_dev(div7, span5);
-    			append_dev(main, t19);
-    			append_dev(main, div9);
-    			append_dev(div9, button0);
+    			append_dev(div9, t16);
+    			append_dev(div9, div8);
+    			append_dev(div8, span3);
+    			append_dev(div8, t17);
+    			append_dev(div8, span4);
+    			append_dev(div8, t18);
+    			append_dev(div8, span5);
+    			append_dev(div11, t19);
+    			append_dev(div11, div10);
+    			append_dev(div10, button0);
     			append_dev(button0, svg0);
     			append_dev(svg0, desc0);
     			append_dev(desc0, t20);
     			append_dev(svg0, g0);
     			append_dev(g0, path0);
     			append_dev(g0, path1);
-    			append_dev(div9, t21);
-    			append_dev(div9, button1);
+    			append_dev(div10, t21);
+    			append_dev(div10, button1);
     			append_dev(button1, svg1);
     			append_dev(svg1, desc1);
     			append_dev(desc1, t22);
     			append_dev(svg1, g1);
     			append_dev(g1, path2);
     			append_dev(g1, path3);
-    			append_dev(div9, t23);
-    			append_dev(div9, button2);
+    			append_dev(div10, t23);
+    			append_dev(div10, button2);
     			append_dev(button2, svg2);
     			append_dev(svg2, desc2);
     			append_dev(desc2, t24);
@@ -983,7 +993,7 @@ var app = (function () {
 
     			if (!mounted) {
     				dispose = [
-    					listen_dev(div0, "animationend", /*animationend_handler*/ ctx[8], false, false, false),
+    					listen_dev(div1, "animationend", /*animationend_handler*/ ctx[8], false, false, false),
     					listen_dev(button0, "click", /*click_handler*/ ctx[9], false, false, false),
     					listen_dev(button1, "click", /*click_handler_1*/ ctx[10], false, false, false),
     					listen_dev(button2, "click", /*click_handler_2*/ ctx[11], false, false, false)
@@ -999,12 +1009,12 @@ var app = (function () {
 
     				if (if_block0) {
     					if_block0.c();
-    					if_block0.m(div0, null);
+    					if_block0.m(div1, null);
     				}
     			}
 
-    			if (dirty & /*animated*/ 4 && div0_class_value !== (div0_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-ysa9mg")) {
-    				attr_dev(div0, "class", div0_class_value);
+    			if (dirty & /*animated*/ 4 && div1_class_value !== (div1_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-1g38s3z")) {
+    				attr_dev(div1, "class", div1_class_value);
     			}
 
     			if (current_block_type_1 !== (current_block_type_1 = select_block_type_1(ctx))) {
@@ -1013,12 +1023,12 @@ var app = (function () {
 
     				if (if_block1) {
     					if_block1.c();
-    					if_block1.m(div2, null);
+    					if_block1.m(div3, null);
     				}
     			}
 
-    			if (dirty & /*animated*/ 4 && div2_class_value !== (div2_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-ysa9mg")) {
-    				attr_dev(div2, "class", div2_class_value);
+    			if (dirty & /*animated*/ 4 && div3_class_value !== (div3_class_value = "play-icon-container " + (/*animated*/ ctx[2] ? 'shaking' : '') + " svelte-1g38s3z")) {
+    				attr_dev(div3, "class", div3_class_value);
     			}
 
     			if (dirty & /*result*/ 32) set_data_dev(t11, /*result*/ ctx[5]);
@@ -1078,7 +1088,7 @@ var app = (function () {
     	let animated = false;
     	let player = 'rock';
     	let computer = 'rock';
-    	let result = '';
+    	let result = 'welcome';
     	let playerChoice;
 
     	function playRound() {

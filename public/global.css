@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "Perfect DOS VGA 437";
-  src: url("fonts/perfect-dos-vga-437-win.ttf") format("truetype");
-  src: url("fonts/perfect-dos-vga-437.ttf") format("truetype");
+  font-family: 'Perfect DOS VGA 437';
+  src: url('fonts/perfect-dos-vga-437-win.ttf') format('truetype');
+  src: url('fonts/perfect-dos-vga-437.ttf') format('truetype');
 }
 
 html,
@@ -18,15 +18,14 @@ body {
   padding: 8px;
   letter-spacing: -1;
   box-sizing: border-box;
-  font-family: "Perfect DOS VGA 437", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",
+  font-family: 'Perfect DOS VGA 437', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue',
     sans-serif;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
   body {
     display: flex;
-    margin: auto;
   }
 }
 

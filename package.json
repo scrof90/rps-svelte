@@ -1,5 +1,5 @@
 {
-  "name": "svelte-app",
+  "name": "rps-svelte",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -20,6 +20,21 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0"
-  }
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "sirv-cli": "^1.0.0",
+    "uuid": "^8.3.2"
+  },
+  "description": "Project: Rock, Paper, Scissors Svelte Edition",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scrof90/rps-svelte.git"
+  },
+  "author": "Scrof",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scrof90/rps-svelte/issues"
+  },
+  "homepage": "https://github.com/scrof90/rps-svelte#readme"
 }

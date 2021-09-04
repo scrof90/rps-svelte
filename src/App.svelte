@@ -1,4 +1,6 @@
 <script>
+  import { init } from 'svelte/internal';
+
   let playerScore = 0;
   let computerScore = 0;
   let newGame = true;
@@ -55,6 +57,47 @@
       result = 'you lose!';
       newGame = true;
     }
+  }
+
+  // EXPRESS
+
+  const url = 'http://localhost:3000';
+
+  async function fetchText() {
+    let response = await fetch(url);
+    return response.json();
+  }
+
+  import { v4 as uuidv4 } from 'uuid';
+
+  function initSession() {
+    const storage = window.localStorage;
+    const session = storage.getItem('session');
+
+    if (session) {
+      return session;
+    } else {
+      const id = uuidv4();
+      return storage.setItem('session', id);
+    }
+  }
+
+  console.log(initSession());
+
+  async function saveSession() {
+    const payload = {session: initSession()};
+
+    const rawResponse = await fetch('http://localhost:3000/session/save', {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(payload),
+    });
+    const content = await rawResponse.json();
+
+    console.log(content);
   }
 </script>
 
@@ -263,6 +306,17 @@
         </svg>
       </button>
     </div>
+<!--     <div class="screen" id="debugScreen">
+      <div class="screen-text" id="results">
+        {#await fetchText()}
+          <p>waiting for the promise to resolve...</p>
+        {:then value}
+          <p>The value is {value.message}</p>
+        {:catch error}
+          <p>Something went wrong: {error.message}</p>
+        {/await}
+      </div>
+    </div> -->
   </div>
 </main>
 
@@ -335,13 +389,13 @@
 
   svg.player-icon {
     fill: hsl(210, 100%, 50%);
-    filter: drop-shadow( 0px 0px 1px hsl(210, 100%, 40%));
+    filter: drop-shadow(0px 0px 1px hsl(210, 100%, 40%));
   }
 
   svg.computer-icon {
     fill: hsl(60, 100%, 42%);
     transform: scale(-2.5, 2.5);
-    filter: drop-shadow( 0px 0px 1px hsl(60, 100%, 42%));
+    filter: drop-shadow(0px 0px 1px hsl(60, 100%, 42%));
   }
 
   .shaking {
@@ -394,7 +448,7 @@
     width: 4.5em;
     height: 4.5em;
     transform: scale(1.5);
-    filter: drop-shadow( 0px 0px 1px hsl(120, 100%, 30%));
+    filter: drop-shadow(0px 0px 1px hsl(120, 100%, 30%));
   }
 
   svg.action-icons:hover {

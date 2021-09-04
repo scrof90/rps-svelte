@@ -308,6 +308,7 @@
   }
 
   .screen {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -318,7 +319,6 @@
   }
 
   .screen#gameScreen {
-    width: 90%;
     height: 15em;
   }
 
@@ -335,11 +335,13 @@
 
   svg.player-icon {
     fill: hsl(210, 100%, 50%);
+    filter: drop-shadow( 0px 0px 1px hsl(210, 100%, 40%));
   }
 
   svg.computer-icon {
     fill: hsl(60, 100%, 42%);
     transform: scale(-2.5, 2.5);
+    filter: drop-shadow( 0px 0px 1px hsl(60, 100%, 42%));
   }
 
   .shaking {
@@ -361,6 +363,7 @@
     color: hsl(15, 100%, 50%);
     font-size: 1.5em;
     text-transform: uppercase;
+    text-shadow: 0px 0px 3px hsl(15, 100%, 40%);
   }
 
   .screen#resultScreen {
@@ -391,6 +394,7 @@
     width: 4.5em;
     height: 4.5em;
     transform: scale(1.5);
+    filter: drop-shadow( 0px 0px 1px hsl(120, 100%, 30%));
   }
 
   svg.action-icons:hover {
@@ -399,7 +403,7 @@
 
   @media (max-width: 640px) {
     h1 {
-      font-size: 1.5em;
+      font-size: 1.8em;
     }
 
     h2 {

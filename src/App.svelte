@@ -85,7 +85,7 @@
   console.log(initSession());
 
   async function saveSession() {
-    const payload = {session: initSession()};
+    const payload = { session: initSession() };
 
     const rawResponse = await fetch('http://localhost:3000/session/save', {
       method: 'POST',
@@ -101,7 +101,7 @@
   }
 </script>
 
-<!-- 
+<!--
 
   Main
 
@@ -306,7 +306,8 @@
         </svg>
       </button>
     </div>
-<!--     <div class="screen" id="debugScreen">
+    <!-- DEBUG SCREEN
+    <div class="screen" id="debugScreen">
       <div class="screen-text" id="results">
         {#await fetchText()}
           <p>waiting for the promise to resolve...</p>
@@ -316,11 +317,12 @@
           <p>Something went wrong: {error.message}</p>
         {/await}
       </div>
-    </div> -->
+    </div>
+     -->
   </div>
 </main>
 
-<!-- 
+<!--
 
   CSS
 
